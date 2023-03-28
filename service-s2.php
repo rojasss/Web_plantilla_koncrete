@@ -112,7 +112,7 @@
                             </div>
                             <div class="col-lg-3 col-md-6 col-6">
                                 <div class="navbar-header">
-                                    <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png"
+                                    <a class="navbar-brand" href="index.php"><img src="assets/images/logo.png"
                                             alt=""></a>
                                 </div>
                             </div>
@@ -123,52 +123,52 @@
                                         <li class="menu-item-has-children">
                                             <a href="#">Home</a>
                                             <ul class="sub-menu">
-                                                <li><a href="index.html">Home style 1</a></li>
-                                                <li><a href="index-2.html">Home style 2</a></li>
-                                                <li><a href="index-3.html">Home style 3</a></li>
+                                                <li><a href="index.php">Home style 1</a></li>
+                                                <li><a href="index-2.php">Home style 2</a></li>
+                                                <li><a href="index-3.php">Home style 3</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="about.html">About</a></li>
+                                        <li><a href="about.php">About</a></li>
                                         <li class="menu-item-has-children">
                                             <a class="active" href="#">Services</a>
                                             <ul class="sub-menu">
-                                                <li><a href="service.html">Service</a></li>
-                                                <li><a class="active" href="service-s2.html">Service style 2</a></li>
-                                                <li><a href="service-single.html">Service Single</a></li>
+                                                <li><a href="service.php">Service</a></li>
+                                                <li><a class="active" href="service-s2.php">Service style 2</a></li>
+                                                <li><a href="service-single.php">Service Single</a></li>
                                             </ul>
                                         </li>
                                         <li class="menu-item-has-children">
                                             <a href="#">pages</a>
                                             <ul class="sub-menu">
-                                                <li><a href="project.html">Project</a></li>
-                                                <li><a href="project-single.html">Project Single</a></li>
-                                                <li><a href="appointment.html">Appointment</a></li>
-                                                <li><a href="terms.html">Terms & Conditions</a></li>
-                                                <li><a href="testimonial.html">Testimonial</a></li>
-                                                <li><a href="pricing.html">Pricing</a></li>
-                                                <li><a href="404.html">Error 404</a></li>
+                                                <li><a href="project.php">Project</a></li>
+                                                <li><a href="project-single.php">Project Single</a></li>
+                                                <li><a href="appointment.php">Appointment</a></li>
+                                                <li><a href="terms.php">Terms & Conditions</a></li>
+                                                <li><a href="testimonial.php">Testimonial</a></li>
+                                                <li><a href="pricing.php">Pricing</a></li>
+                                                <li><a href="404.php">Error 404</a></li>
                                             </ul>
                                         </li>
                                         <li class="menu-item-has-children">
-                                            <a href="blog.html">Blog</a>
+                                            <a href="blog.php">Blog</a>
                                             <ul class="sub-menu">
-                                                <li><a href="blog.html">Blog right sidebar</a></li>
-                                                <li><a href="blog-left-sidebar.html">Blog left sidebar</a></li>
-                                                <li><a href="blog-fullwidth.html">Blog fullwidth</a></li>
+                                                <li><a href="blog.php">Blog right sidebar</a></li>
+                                                <li><a href="blog-left-sidebar.php">Blog left sidebar</a></li>
+                                                <li><a href="blog-fullwidth.php">Blog fullwidth</a></li>
                                                 <li class="menu-item-has-children">
                                                     <a href="#">Blog details</a>
                                                     <ul class="sub-menu">
-                                                        <li><a href="blog-single.html">Blog details right sidebar</a>
+                                                        <li><a href="blog-single.php">Blog details right sidebar</a>
                                                         </li>
-                                                        <li><a href="blog-single-left-sidebar.html">Blog details left
+                                                        <li><a href="blog-single-left-sidebar.php">Blog details left
                                                                 sidebar</a></li>
-                                                        <li><a href="blog-single-fullwidth.html">Blog details
+                                                        <li><a href="blog-single-fullwidth.php">Blog details
                                                                 fullwidth</a></li>
                                                     </ul>
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="contact.php">Contact</a></li>
                                     </ul>
 
                                 </div><!-- end of nav-collapse -->
@@ -192,7 +192,7 @@
                                         </div>
                                     </div>
                                     <div class="close-form">
-                                        <a class="theme-btn" href="contact.html">GET FREE QUOTE</a>
+                                        <a class="theme-btn" href="contact.php">GET FREE QUOTE</a>
                                     </div>
                                 </div>
                             </div>
@@ -210,7 +210,7 @@
                         <div class="wpo-breadcumb-wrap">
                             <h2>Service</h2>
                             <ol class="wpo-breadcumb-wrap">
-                                <li><a href="index.html">Home</a></li>
+                                <li><a href="index.php">Home</a></li>
                                 <li>Service</li>
                             </ol>
                         </div>
@@ -239,7 +239,7 @@
                                  <img src="assets/images/icon/kitchen-utensils.png" alt="">
                              </div>
                              <div class="wpo-service-text">
-                                  <h2><a href="service-single.html">Kitchen Plumbing</a></h2>
+                                  <h2><a href="service-single.php">Kitchen Plumbing</a></h2>
                                   <p>Electronic typesetting rema essentially unchanged was popularised.</p>
                              </div>
                              <div class="visible-icon">
@@ -253,7 +253,7 @@
                                 <img src="assets/images/icon/gas-stove.png" alt="">
                              </div>
                              <div class="wpo-service-text">
-                                  <h2><a href="service-single.html">Gas Line Services</a></h2>
+                                  <h2><a href="service-single.php">Gas Line Services</a></h2>
                                   <p>Electronic typesetting rema essentially unchanged was popularised.</p>
                              </div>
                              <div class="visible-icon">
@@ -267,7 +267,7 @@
                                 <img src="assets/images/icon/water-tap.png" alt="">
                              </div>
                              <div class="wpo-service-text">
-                                  <h2><a href="service-single.html">Water Line Repair</a></h2>
+                                  <h2><a href="service-single.php">Water Line Repair</a></h2>
                                   <p>Electronic typesetting rema essentially unchanged was popularised.</p>
                              </div>
                              <div class="visible-icon">
@@ -281,7 +281,7 @@
                                 <img src="assets/images/icon/sink.png" alt="">
                              </div>
                              <div class="wpo-service-text">
-                                  <h2><a href="service-single.html">Bathroom Plumbing</a></h2>
+                                  <h2><a href="service-single.php">Bathroom Plumbing</a></h2>
                                   <p>Electronic typesetting rema essentially unchanged was popularised.</p>
                              </div>
                              <div class="visible-icon">
@@ -295,7 +295,7 @@
                                 <img src="assets/images/icon/basement.png" alt="">
                              </div>
                              <div class="wpo-service-text">
-                                  <h2><a href="service-single.html">Basement Plumbing</a></h2>
+                                  <h2><a href="service-single.php">Basement Plumbing</a></h2>
                                   <p>Electronic typesetting rema essentially unchanged was popularised.</p>
                              </div>
                              <div class="visible-icon">
@@ -309,7 +309,7 @@
                                 <img src="assets/images/icon/remodeling.png" alt="">
                              </div>
                              <div class="wpo-service-text">
-                                  <h2><a href="service-single.html">Remodeling Service</a></h2>
+                                  <h2><a href="service-single.php">Remodeling Service</a></h2>
                                   <p>Electronic typesetting rema essentially unchanged was popularised.</p>
                              </div>
                              <div class="visible-icon">
@@ -378,11 +378,11 @@
                                     <h3>Services </h3>
                                 </div>
                               <ul>
-                                    <li><a href="service-single.html">Building Construction</a></li>
-                                    <li><a href="service-single.html">House Construction</a></li>
-                                    <li><a href="service-single.html">Interior Desing</a></li>
-                                    <li><a href="service-single.html">Road Construction</a></li>
-                                    <li><a href="service-single.html">OutFiled Digging</a></li>
+                                    <li><a href="service-single.php">Building Construction</a></li>
+                                    <li><a href="service-single.php">House Construction</a></li>
+                                    <li><a href="service-single.php">Interior Desing</a></li>
+                                    <li><a href="service-single.php">Road Construction</a></li>
+                                    <li><a href="service-single.php">OutFiled Digging</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -393,12 +393,12 @@
                                     <h3>Projects</h3>
                                 </div>
                                 <ul class="d-flex">
-                                    <li><a href="project-single.html"><img src="assets/images/instragram/1.jpg" alt=""></a></li>
-                                    <li><a href="project-single.html"><img src="assets/images/instragram/2.jpg" alt=""></a></li>
-                                    <li><a href="project-single.html"><img src="assets/images/instragram/3.jpg" alt=""></a></li>
-                                    <li><a href="project-single.html"><img src="assets/images/instragram/4.jpg" alt=""></a></li>
-                                    <li><a href="project-single.html"><img src="assets/images/instragram/5.jpg" alt=""></a></li>
-                                    <li><a href="project-single.html"><img src="assets/images/instragram/6.jpg" alt=""></a></li>
+                                    <li><a href="project-single.php"><img src="assets/images/instragram/1.jpg" alt=""></a></li>
+                                    <li><a href="project-single.php"><img src="assets/images/instragram/2.jpg" alt=""></a></li>
+                                    <li><a href="project-single.php"><img src="assets/images/instragram/3.jpg" alt=""></a></li>
+                                    <li><a href="project-single.php"><img src="assets/images/instragram/4.jpg" alt=""></a></li>
+                                    <li><a href="project-single.php"><img src="assets/images/instragram/5.jpg" alt=""></a></li>
+                                    <li><a href="project-single.php"><img src="assets/images/instragram/6.jpg" alt=""></a></li>
                                 </ul>
                             </div>
                         </div>

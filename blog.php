@@ -2,12 +2,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
- <meta name="author" content="">
+   <meta name="author" content="">
     <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
     <title>koncrete | Construction & Building Template</title>
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
@@ -112,7 +111,7 @@
                             </div>
                             <div class="col-lg-3 col-md-6 col-6">
                                 <div class="navbar-header">
-                                    <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png"
+                                    <a class="navbar-brand" href="index.php"><img src="assets/images/logo.png"
                                             alt=""></a>
                                 </div>
                             </div>
@@ -123,52 +122,52 @@
                                         <li class="menu-item-has-children">
                                             <a href="#">Home</a>
                                             <ul class="sub-menu">
-                                                <li><a href="index.html">Home style 1</a></li>
-                                                <li><a href="index-2.html">Home style 2</a></li>
-                                                <li><a href="index-3.html">Home style 3</a></li>
+                                                <li><a href="index.php">Home style 1</a></li>
+                                                <li><a href="index-2.php">Home style 2</a></li>
+                                                <li><a href="index-3.php">Home style 3</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="about.html">About</a></li>
+                                        <li><a href="about.php">About</a></li>
                                         <li class="menu-item-has-children">
                                             <a href="#">Services</a>
                                             <ul class="sub-menu">
-                                                <li><a href="service.html">Service</a></li>
-                                                <li><a href="service-s2.html">Service style 2</a></li>
-                                                <li><a href="service-single.html">Service Single</a></li>
+                                                <li><a href="service.php">Service</a></li>
+                                                <li><a href="service-s2.php">Service style 2</a></li>
+                                                <li><a href="service-single.php">Service Single</a></li>
                                             </ul>
                                         </li>
                                         <li class="menu-item-has-children">
                                             <a href="#">pages</a>
                                             <ul class="sub-menu">
-                                                <li><a href="project.html">Project</a></li>
-                                                <li><a href="project-single.html">Project Single</a></li>
-                                                <li><a href="appointment.html">Appointment</a></li>
-                                                <li><a href="terms.html">Terms & Conditions</a></li>
-                                                <li><a href="testimonial.html">Testimonial</a></li>
-                                                <li><a href="pricing.html">Pricing</a></li>
-                                                <li><a href="404.html">Error 404</a></li>
+                                                <li><a href="project.php">Project</a></li>
+                                                <li><a href="project-single.php">Project Single</a></li>
+                                                <li><a href="appointment.php">Appointment</a></li>
+                                                <li><a href="terms.php">Terms & Conditions</a></li>
+                                                <li><a href="testimonial.php">Testimonial</a></li>
+                                                <li><a href="pricing.php">Pricing</a></li>
+                                                <li><a href="404.php">Error 404</a></li>
                                             </ul>
                                         </li>
                                         <li class="menu-item-has-children">
-                                            <a class="active" href="blog.html">Blog</a>
+                                            <a class="active" href="blog.php">Blog</a>
                                             <ul class="sub-menu">
-                                                <li><a href="blog.html">Blog right sidebar</a></li>
-                                                <li><a class="active" href="blog-left-sidebar.html">Blog left sidebar</a></li>
-                                                <li><a href="blog-fullwidth.html">Blog fullwidth</a></li>
+                                                <li><a class="active" href="blog.php">Blog right sidebar</a></li>
+                                                <li><a href="blog-left-sidebar.php">Blog left sidebar</a></li>
+                                                <li><a href="blog-fullwidth.php">Blog fullwidth</a></li>
                                                 <li class="menu-item-has-children">
                                                     <a href="#">Blog details</a>
                                                     <ul class="sub-menu">
-                                                        <li><a href="blog-single.html">Blog details right sidebar</a>
+                                                        <li><a href="blog-single.php">Blog details right sidebar</a>
                                                         </li>
-                                                        <li><a href="blog-single-left-sidebar.html">Blog details left
+                                                        <li><a href="blog-single-left-sidebar.php">Blog details left
                                                                 sidebar</a></li>
-                                                        <li><a href="blog-single-fullwidth.html">Blog details
+                                                        <li><a href="blog-single-fullwidth.php">Blog details
                                                                 fullwidth</a></li>
                                                     </ul>
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="contact.php">Contact</a></li>
                                     </ul>
 
                                 </div><!-- end of nav-collapse -->
@@ -192,7 +191,7 @@
                                         </div>
                                     </div>
                                     <div class="close-form">
-                                        <a class="theme-btn" href="contact.html">GET FREE QUOTE</a>
+                                        <a class="theme-btn" href="contact.php">GET FREE QUOTE</a>
                                     </div>
                                 </div>
                             </div>
@@ -210,7 +209,7 @@
                         <div class="wpo-breadcumb-wrap">
                             <h2>Latest News</h2>
                             <ol class="wpo-breadcumb-wrap">
-                                <li><a href="index.html">Home</a></li>
+                                <li><a href="index.php">Home</a></li>
                                 <li>Blog</li>
                             </ol>
                         </div>
@@ -219,11 +218,11 @@
             </div> <!-- end container -->
         </section>
         <!-- end page-title -->
-         <!-- start wpo-blog-pg-section -->
-         <section class="wpo-blog-pg-section blog-pg-left-sidebar section-padding">
+        <!-- start wpo-blog-pg-section -->
+        <section class="wpo-blog-pg-section section-padding">
             <div class="container">
                 <div class="row">
-                    <div class="col col-lg-8 order-lg-2">
+                    <div class="col col-lg-8">
                         <div class="wpo-blog-content">
                             <div class="post format-standard-image">
                                 <div class="entry-media">
@@ -231,29 +230,29 @@
                                 </div>
                                 <div class="entry-meta">
                                     <ul>
-                                        <li><i class="fi flaticon-user"></i> By <a href="#">Invent Think</a> </li>
+                                        <li><i class="fi flaticon-user"></i> By <a href="#">invent Think</a> </li>
                                         <li><i class="fi flaticon-comment-white-oval-bubble"></i> Comments 35 </li>
-                                        <li><i class="fi flaticon-calendar"></i> 24 Jun 2021</li>
+                                        <li><i class="fi flaticon-calendar"></i> 11 Nov,2021</li>
                                     </ul>
                                 </div>
                                 <div class="entry-details">
-                                    <h3><a href="blog-single.html">Making this the first true ones the uses a dictionary.</a></h3>
+                                    <h3><a href="blog-single.php">Making this the first true ones the uses a dictionary.</a></h3>
                                     <p>Plumbnig is a great career path if you want to build a broad skill set that includes everything from critical thinking and strategic planning to communications. If you love rising to a challenge.</p>
-                                    <a href="blog-single.html" class="read-more">READ MORE...</a>
+                                    <a href="blog-single.php" class="read-more">READ MORE...</a>
                                 </div>
                             </div>
                             <div class="post format-standard">
                                 <div class="entry-meta">
                                     <ul>
-                                        <li><i class="fi flaticon-user"></i> By <a href="#">Invent Think</a> </li>
+                                        <li><i class="fi flaticon-user"></i> By <a href="#">invent Think</a> </li>
                                         <li><i class="fi flaticon-comment-white-oval-bubble"></i> Comments 35 </li>
-                                        <li><i class="fi flaticon-calendar"></i> 24 Jun 2021</li>
+                                        <li><i class="fi flaticon-calendar"></i> 11 Nov,2021</li>
                                     </ul>
                                 </div>
                                 <div class="entry-details">
-                                    <h3><a href="blog-single.html">A day in the life of a Home Construction business</a></h3>
+                                    <h3><a href="blog-single.php">A day in the life of a Construction business</a></h3>
                                     <p>Plumbnig is a great career path if you want to build a broad skill set that includes everything from critical thinking and strategic planning to communications. If you love rising to a challenge.</p>
-                                    <a href="blog-single.html" class="read-more">READ MORE...</a>
+                                    <a href="blog-single.php" class="read-more">READ MORE...</a>
                                 </div>
                             </div>
                             
@@ -267,15 +266,15 @@
                                 </div>
                                 <div class="entry-meta">
                                     <ul>
-                                        <li><i class="fi flaticon-user"></i> By <a href="#">Invent Think</a> </li>
+                                        <li><i class="fi flaticon-user"></i> By <a href="#">invent Think</a> </li>
                                         <li><i class="fi flaticon-comment-white-oval-bubble"></i> Comments 35 </li>
-                                        <li><i class="fi flaticon-calendar"></i> 24 Jun 2021</li>
+                                        <li><i class="fi flaticon-calendar"></i> 11 Nov,2021</li>
                                     </ul>
                                 </div>
                                 <div class="entry-details">
-                                    <h3><a href="blog-single.html">A Behind the scenes look of yourHome Construction company</a></h3>
+                                    <h3><a href="blog-single.php">A Behind the scenes look of your Construction company</a></h3>
                                     <p>Plumbnig is a great career path if you want to build a broad skill set that includes everything from critical thinking and strategic planning to communications. If you love rising to a challenge.</p>
-                                    <a href="blog-single.html" class="read-more">READ MORE...</a>
+                                    <a href="blog-single.php" class="read-more">READ MORE...</a>
                                 </div>
                             </div>
                             <div class="post format-video">
@@ -288,15 +287,15 @@
                                 </div>
                                 <div class="entry-meta">
                                     <ul>
-                                        <li><i class="fi flaticon-user"></i> By <a href="#">Invent Think</a> </li>
+                                        <li><i class="fi flaticon-user"></i> By <a href="#">invent Think</a> </li>
                                         <li><i class="fi flaticon-comment-white-oval-bubble"></i> Comments 35 </li>
-                                        <li><i class="fi flaticon-calendar"></i> 24 Jun 2021</li>
+                                        <li><i class="fi flaticon-calendar"></i> 11 Nov,2021</li>
                                     </ul>
                                 </div>
                                 <div class="entry-details">
-                                    <h3><a href="blog-single.html">Now grab your tool belt and get to work!</a></h3>
+                                    <h3><a href="blog-single.php">Now grab your tool belt and get to work!</a></h3>
                                     <p>Plumbnig is a great career path if you want to build a broad skill set that includes everything from critical thinking and strategic planning to communications. If you love rising to a challenge.</p>
-                                    <a href="blog-single.html" class="read-more">READ MORE...</a>
+                                    <a href="blog-single.php" class="read-more">READ MORE...</a>
                                 </div>
                             </div>
                             <div class="pagination-wrapper pagination-wrapper-left">
@@ -318,13 +317,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col col-lg-4 order-lg-1 col-12">
+                    <div class="col col-lg-4">
                         <div class="blog-sidebar">
                             <div class="widget about-widget">
                                 <div class="img-holder">
                                     <img src="assets/images/blog/about-widget.jpg" alt>
                                 </div>
-                                <h4>Invent Think</h4>
+                                <h4>invent Think</h4>
                                 <p>Hi! beautiful people. I`m an authtor of this blog. Read our post - stay with us</p>
                                 <div class="social">
                                     <ul class="clearfix">
@@ -348,12 +347,12 @@
                             </div>
                             <div class="widget category-widget">
                                 <h3>Categories</h3>
-                            <ul>
-                                    <li><a href="service-single.html">Building Construction</a></li>
-                                    <li><a href="service-single.html">House Construction</a></li>
-                                    <li><a href="service-single.html">Interior Desing</a></li>
-                                    <li><a href="service-single.html">Road Construction</a></li>
-                                    <li><a href="service-single.html">OutFiled Digging</a></li>
+                               <ul>
+                                    <li><a href="service-single.php">Building Construction</a></li>
+                                    <li><a href="service-single.php">House Construction</a></li>
+                                    <li><a href="service-single.php">Interior Desing</a></li>
+                                    <li><a href="service-single.php">Road Construction</a></li>
+                                    <li><a href="service-single.php">OutFiled Digging</a></li>
                                 </ul>
                             </div>
                             <div class="widget recent-post-widget">
@@ -364,7 +363,7 @@
                                             <img src="assets/images/recent-posts/img-1.jpg" alt>
                                         </div>
                                         <div class="details">
-                                            <h4><a href="blog-single.html">Why Choose Management Plumbnig?</a></h4>
+                                            <h4><a href="blog-single.php">Why Choose Management Plumbnig?</a></h4>
                                             <span class="date">19 Jun 2021 </span>
                                         </div>
                                     </div>
@@ -373,7 +372,7 @@
                                             <img src="assets/images/recent-posts/img-2.jpg" alt>
                                         </div>
                                         <div class="details">
-                                            <h4><a href="blog-single.html">Researching the Plumbnig Career Path</a></h4>
+                                            <h4><a href="blog-single.php">Researching the Plumbnig Career Path</a></h4>
                                             <span class="date">22 May 2021 </span>
                                         </div>
                                     </div>
@@ -382,7 +381,7 @@
                                             <img src="assets/images/recent-posts/img-3.jpg" alt>
                                         </div>
                                         <div class="details">
-                                            <h4><a href="blog-single.html">Joining the Plumbnig Club During Your MBA</a></h4>
+                                            <h4><a href="blog-single.php">Joining the Plumbnig Club During Your MBA</a></h4>
                                             <span class="date">12 Apr 2021 </span>
                                         </div>
                                     </div>
@@ -393,12 +392,12 @@
                                     <h3>Projects</h3>
                                 </div>
                                 <ul class="d-flex">
-                                    <li><a href="project-single.html"><img src="assets/images/instragram/1.jpg" alt=""></a></li>
-                                    <li><a href="project-single.html"><img src="assets/images/instragram/2.jpg" alt=""></a></li>
-                                    <li><a href="project-single.html"><img src="assets/images/instragram/3.jpg" alt=""></a></li>
-                                    <li><a href="project-single.html"><img src="assets/images/instragram/4.jpg" alt=""></a></li>
-                                    <li><a href="project-single.html"><img src="assets/images/instragram/5.jpg" alt=""></a></li>
-                                    <li><a href="project-single.html"><img src="assets/images/instragram/6.jpg" alt=""></a></li>
+                                    <li><a href="project-single.php"><img src="assets/images/instragram/1.jpg" alt=""></a></li>
+                                    <li><a href="project-single.php"><img src="assets/images/instragram/2.jpg" alt=""></a></li>
+                                    <li><a href="project-single.php"><img src="assets/images/instragram/3.jpg" alt=""></a></li>
+                                    <li><a href="project-single.php"><img src="assets/images/instragram/4.jpg" alt=""></a></li>
+                                    <li><a href="project-single.php"><img src="assets/images/instragram/5.jpg" alt=""></a></li>
+                                    <li><a href="project-single.php"><img src="assets/images/instragram/6.jpg" alt=""></a></li>
                                 </ul>
                             </div>
                             <div class="widget tag-widget">
@@ -408,7 +407,7 @@
                                     <li><a href="#">Gas Line</a></li>
                                     <li><a href="#">Window</a></li>
                                     <li><a href="#">Water Line</a></li>
-                                    <li><a href="#">Plumbing</a></li>
+                                    <li><a href="#">Construction</a></li>
                                     <li><a href="#">Bathroom</a></li>
                                     <li><a href="#">Basement</a></li>
                                     <li><a href="#">Remodeling</a></li>
@@ -417,7 +416,7 @@
                             <div class="wpo-contact-widget widget">
                                 <h2>How We Can <br> Help You!</h2>
                                 <p>labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                                <a href="contact.html">Contact Us</a>
+                                <a href="contact.php">Contact Us</a>
                            </div>
                         </div>
                     </div>
@@ -425,7 +424,7 @@
             </div> <!-- end container -->
         </section>
         <!-- end wpo-blog-pg-section -->
-    <!-- start of wpo-site-footer-section -->
+        <!-- start of wpo-site-footer-section -->
         <footer class="wpo-site-footer">
             <div class="wpo-upper-footer">
                 <div class="container">
@@ -470,7 +469,7 @@
                                     <ul>
                                         <li><i class="fi flaticon-location"></i>7 Green Lake Street Crawfordsville, IN 47933</li>
                                         <li><i class="fi flaticon-phone-call"></i>+1 800 123 456 789</li>
-                                      <li><i class="fi flaticon-send"></i>info@example.com</li>
+                                 <li><i class="fi flaticon-send"></i>info@example.com</li>
                                     </ul>
                                 </div>
                             </div>
@@ -480,12 +479,12 @@
                                 <div class="widget-title">
                                     <h3>Services </h3>
                                 </div>
-                             <ul>
-                                    <li><a href="service-single.html">Building Construction</a></li>
-                                    <li><a href="service-single.html">House Construction</a></li>
-                                    <li><a href="service-single.html">Interior Desing</a></li>
-                                    <li><a href="service-single.html">Road Construction</a></li>
-                                    <li><a href="service-single.html">OutFiled Digging</a></li>
+                                <ul>
+                                    <li><a href="service-single.php">Flat Construction</a></li>
+                                    <li><a href="service-single.php">Tile Construction</a></li>
+                                    <li><a href="service-single.php">Metal Construction</a></li>
+                                    <li><a href="service-single.php">Gutter cleaning</a></li>
+                                    <li><a href="service-single.php">Emergency Construction</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -496,12 +495,12 @@
                                     <h3>Projects</h3>
                                 </div>
                                 <ul class="d-flex">
-                                    <li><a href="project-single.html"><img src="assets/images/instragram/1.jpg" alt=""></a></li>
-                                    <li><a href="project-single.html"><img src="assets/images/instragram/2.jpg" alt=""></a></li>
-                                    <li><a href="project-single.html"><img src="assets/images/instragram/3.jpg" alt=""></a></li>
-                                    <li><a href="project-single.html"><img src="assets/images/instragram/4.jpg" alt=""></a></li>
-                                    <li><a href="project-single.html"><img src="assets/images/instragram/5.jpg" alt=""></a></li>
-                                    <li><a href="project-single.html"><img src="assets/images/instragram/6.jpg" alt=""></a></li>
+                                    <li><a href="project-single.php"><img src="assets/images/instragram/1.jpg" alt=""></a></li>
+                                    <li><a href="project-single.php"><img src="assets/images/instragram/2.jpg" alt=""></a></li>
+                                    <li><a href="project-single.php"><img src="assets/images/instragram/3.jpg" alt=""></a></li>
+                                    <li><a href="project-single.php"><img src="assets/images/instragram/4.jpg" alt=""></a></li>
+                                    <li><a href="project-single.php"><img src="assets/images/instragram/5.jpg" alt=""></a></li>
+                                    <li><a href="project-single.php"><img src="assets/images/instragram/6.jpg" alt=""></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -533,5 +532,6 @@
     <!-- Custom script for this template -->
     <script src="assets/js/script.js"></script>
 </body>
+
 
 </html>

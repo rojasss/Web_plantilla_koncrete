@@ -2,14 +2,13 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="">
+   <meta name="author" content="">
     <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
-  <title>koncrete | Construction & Building Template</title>
+ <title>koncrete | Construction & Building Template</title>
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
     <link href="assets/css/themify-icons.css" rel="stylesheet">
     <link href="assets/css/flaticon.css" rel="stylesheet">
@@ -112,7 +111,7 @@
                             </div>
                             <div class="col-lg-3 col-md-6 col-6">
                                 <div class="navbar-header">
-                                    <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png"
+                                    <a class="navbar-brand" href="index.php"><img src="assets/images/logo.png"
                                             alt=""></a>
                                 </div>
                             </div>
@@ -123,52 +122,53 @@
                                         <li class="menu-item-has-children">
                                             <a class="active" href="#">Home</a>
                                             <ul class="sub-menu">
-                                                <li><a href="index.html">Home style 1</a></li>
-                                                <li><a href="index-2.html">Home style 2</a></li>
-                                                <li><a class="active" href="index-3.html">Home style 3</a></li>
+                                                <li><a class="active" href="index.php">Home style 1</a></li>
+                                                <li><a href="index-2.php">Home style 2</a></li>
+                                                <li><a href="index-3.php">Home style 3</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="about.html">About</a></li>
+                                        <li><a href="about.php">About</a></li>
                                         <li class="menu-item-has-children">
                                             <a href="#">Services</a>
                                             <ul class="sub-menu">
-                                                <li><a href="service.html">Service</a></li>
-                                                <li><a href="service-s2.html">Service style 2</a></li>
-                                                <li><a href="service-single.html">Service Single</a></li>
+                                                <li><a href="service.php">Service</a></li>
+                                                <li><a href="service-s2.php">Service style 2</a></li>
+                                                <li><a href="service-single.php">Service Single</a></li>
                                             </ul>
                                         </li>
+
                                         <li class="menu-item-has-children">
                                             <a href="#">pages</a>
                                             <ul class="sub-menu">
-                                                <li><a href="project.html">Project</a></li>
-                                                <li><a href="project-single.html">Project Single</a></li>
-                                                <li><a href="appointment.html">Appointment</a></li>
-                                                <li><a href="terms.html">Terms & Conditions</a></li>
-                                                <li><a href="testimonial.html">Testimonial</a></li>
-                                                <li><a href="pricing.html">Pricing</a></li>
-                                                <li><a href="404.html">Error 404</a></li>
+                                                <li><a href="project.php">Project</a></li>
+                                                <li><a href="project-single.php">Project Single</a></li>
+                                                <li><a href="appointment.php">Appointment</a></li>
+                                                <li><a href="terms.php">Terms & Conditions</a></li>
+                                                <li><a href="testimonial.php">Testimonial</a></li>
+                                                <li><a href="pricing.php">Pricing</a></li>
+                                                <li><a href="404.php">Error 404</a></li>
                                             </ul>
                                         </li>
                                         <li class="menu-item-has-children">
-                                            <a href="blog.html">Blog</a>
+                                            <a href="blog.php">Blog</a>
                                             <ul class="sub-menu">
-                                                <li><a href="blog.html">Blog right sidebar</a></li>
-                                                <li><a href="blog-left-sidebar.html">Blog left sidebar</a></li>
-                                                <li><a href="blog-fullwidth.html">Blog fullwidth</a></li>
+                                                <li><a href="blog.php">Blog right sidebar</a></li>
+                                                <li><a href="blog-left-sidebar.php">Blog left sidebar</a></li>
+                                                <li><a href="blog-fullwidth.php">Blog fullwidth</a></li>
                                                 <li class="menu-item-has-children">
                                                     <a href="#">Blog details</a>
                                                     <ul class="sub-menu">
-                                                        <li><a href="blog-single.html">Blog details right sidebar</a>
+                                                        <li><a href="blog-single.php">Blog details right sidebar</a>
                                                         </li>
-                                                        <li><a href="blog-single-left-sidebar.html">Blog details left
+                                                        <li><a href="blog-single-left-sidebar.php">Blog details left
                                                                 sidebar</a></li>
-                                                        <li><a href="blog-single-fullwidth.html">Blog details
+                                                        <li><a href="blog-single-fullwidth.php">Blog details
                                                                 fullwidth</a></li>
                                                     </ul>
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="contact.php">Contact</a></li>
                                     </ul>
 
                                 </div><!-- end of nav-collapse -->
@@ -192,7 +192,7 @@
                                         </div>
                                     </div>
                                     <div class="close-form">
-                                        <a class="theme-btn" href="contact.html">GET FREE QUOTE</a>
+                                        <a class="theme-btn" href="contact.php">GET FREE QUOTE</a>
                                     </div>
                                 </div>
                             </div>
@@ -202,47 +202,61 @@
             </div>
         </header>
         <!-- end of header -->
-        <!-- start of wpo-hero-section-1 -->
-        <section class="wpo-hero-section-2">
-            <div class="container">
-                <div class="row">
-                    <div class="col col-xs-5 col-lg-5 offset-lg-7 col-12">
-                        <div class="wpo-hero-section-text">
-                            <div class="wpo-hero-subtitle">
-                                <span>:: Highly Trained Staff </span>
+         <!-- start of hero -->
+        <section class="wpo-hero-slider">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="slide-inner slide-bg-image" data-background="assets/images/slider/slide-2.jpg">
+                            <div class="gradient-overlay"></div>
+                            <div class="container">
+                                <div class="slide-content">
+                                    <div data-swiper-parallax="300" class="slide-title">
+                                        <h2>Expert Construction Service You Can Trust.</h2>
+                                    </div>
+                                    <div data-swiper-parallax="400" class="slide-text">
+                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div data-swiper-parallax="500" class="slide-btns">
+                                        <a href="appointment.php" class="btn theme-btn">BOOK ONLINE</a>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="wpo-hero-title">
-                                <h2>Ready For <span>Help</span> You.</h2>
+                        </div> <!-- end slide-inner -->
+                    </div> <!-- end swiper-slide -->
+
+                    <div class="swiper-slide">
+                        <div class="slide-inner slide-bg-image" data-background="assets/images/slider/slide-3.jpg">
+                            <div class="gradient-overlay"></div>
+                            <div class="container">
+                                <div class="slide-content">
+                                    <div data-swiper-parallax="300" class="slide-title">
+                                        <h2>Best Construction Services And Affordable Prices!</h2>
+                                    </div>
+                                    <div data-swiper-parallax="400" class="slide-text">
+                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div data-swiper-parallax="500" class="slide-btns">
+                                        <a href="appointment.php" class="btn theme-btn">BOOK ONLINE</a>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="wpo-hero-des">
-                                <p>We are certified company. We provide best Construction services for you & your company .
-                                </p>
-                            </div>
-                            <div class="btns">
-                                <ul>
-                                    <li>
-                                        <a href="appointment.html" class="btn theme-btn">BOOK ONLINE</a>
-                                    </li>
-                                    <li>
-                                        <div class="video-holder">
-                                            <a href="https://www.youtube.com/embed/jAPsZ7_4bxg" class="video-btn"
-                                                data-type="iframe"><i class="fi flaticon-play"></i></a>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+                        </div> <!-- end slide-inner -->
+                    </div> <!-- end swiper-slide -->
                 </div>
-            </div>
-            <div class="right-vec">
-                <div class="right-img">
-                </div>
+                <!-- end swiper-wrapper -->
+
+                <!-- swipper controls -->
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
             </div>
         </section>
-        <!-- end of wpo-hero-section-1 slider -->
+        <!-- end of wpo-hero-slide-section-->
         <!-- start of wpo-features-section -->
-        <section class="wpo-features-section-s2">
+        <section class="wpo-features-section">
             <div class="container">
                 <div class="wpo-features-wrap">
                     <div class="row align-items-center justify-content-between">
@@ -284,7 +298,38 @@
         </section>
         <!-- end of wpo-features-section -->
 
-          <!-- start wpo-service-section -->
+        <!-- start of wpo-work-section -->
+        <section class="wpo-work-section">
+            <div class="container">
+                <div class="wpo-work-wrap">
+                    <div class="row">
+                        <div class="col col-lg-6 col-md-6 col-12">
+                            <div class="wpo-work-item">
+                                <div class="wpo-work-icon">
+                                    <img src="assets/images/icon/7.png" alt="">
+                                </div>
+                                <div class="wpo-work-text">
+                                    <h2><a href="service.php">Commercial Construction</a></h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-lg-6 col-md-6 col-12">
+                            <div class="wpo-work-item">
+                                <div class="wpo-work-icon">
+                                    <img src="assets/images/icon/8.png" alt="">
+                                </div>
+                                <div class="wpo-work-text">
+                                    <h2><a href="service.php">Residential Construction</a></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of wpo-work-section -->
+
+        <!-- start wpo-service-section -->
          <section class="wpo-service-section section-padding">
             <div class="container">
                 <div class="row align-items-center justify-content-center">
@@ -303,9 +348,9 @@
                                  <img src="assets/images/service/1.jpg" alt="">
                              </div>
                              <div class="wpo-service-text">
-                                  <h2><a href="service-single.html">Building Construction</a></h2>
+                                  <h2><a href="service-single.php">Building Construction</a></h2>
                                   <p>Electronic typesetting rema essentially unchanged was popularised.</p>
-                                  <a href="service-single.html">READ MORE <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                                  <a href="service-single.php">READ MORE <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
                              </div>
                          </div>
                     </div>
@@ -315,9 +360,9 @@
                                  <img src="assets/images/service/2.jpg" alt="">
                              </div>
                              <div class="wpo-service-text">
-                                  <h2><a href="service-single.html">House Construction</a></h2>
+                                  <h2><a href="service-single.php">House Construction</a></h2>
                                   <p>Electronic typesetting rema essentially unchanged was popularised.</p>
-                                  <a href="service-single.html">READ MORE <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                                  <a href="service-single.php">READ MORE <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
                              </div>
                          </div>
                     </div>
@@ -327,9 +372,9 @@
                                  <img src="assets/images/service/3.jpg" alt="">
                              </div>
                              <div class="wpo-service-text">
-                                  <h2><a href="service-single.html">Interior Design</a></h2>
+                                  <h2><a href="service-single.php">Interior Design</a></h2>
                                   <p>Electronic typesetting rema essentially unchanged was popularised.</p>
-                                  <a href="service-single.html">READ MORE <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                                  <a href="service-single.php">READ MORE <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
                              </div>
                          </div>
                     </div>
@@ -339,9 +384,9 @@
                                  <img src="assets/images/service/4.jpg" alt="">
                              </div>
                              <div class="wpo-service-text">
-                                  <h2><a href="service-single.html">Floor and Roofs</a></h2>
+                                  <h2><a href="service-single.php">Floor and Roofs</a></h2>
                                   <p>Electronic typesetting rema essentially unchanged was popularised.</p>
-                                  <a href="service-single.html">READ MORE <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                                  <a href="service-single.php">READ MORE <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
                              </div>
                          </div>
                     </div>
@@ -351,9 +396,9 @@
                                  <img src="assets/images/service/5.jpg" alt="">
                              </div>
                              <div class="wpo-service-text">
-                                  <h2><a href="service-single.html">Electricity </a></h2>
+                                  <h2><a href="service-single.php">Electricity </a></h2>
                                   <p>Electronic typesetting rema essentially unchanged was popularised.</p>
-                                  <a href="service-single.html">READ MORE <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                                  <a href="service-single.php">READ MORE <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
                              </div>
                          </div>
                     </div>
@@ -363,9 +408,9 @@
                                  <img src="assets/images/service/6.jpg" alt="">
                              </div>
                              <div class="wpo-service-text">
-                                  <h2><a href="service-single.html">Plumbing Construction</a></h2>
+                                  <h2><a href="service-single.php">Plumbing Construction</a></h2>
                                   <p>Electronic typesetting rema essentially unchanged was popularised.</p>
-                                  <a href="service-single.html">READ MORE <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                                  <a href="service-single.php">READ MORE <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
                              </div>
                          </div>
                     </div>
@@ -375,9 +420,9 @@
                                  <img src="assets/images/service/7.jpg" alt="">
                              </div>
                              <div class="wpo-service-text">
-                                  <h2><a href="service-single.html">Road Construction</a></h2>
+                                  <h2><a href="service-single.php">Road Construction</a></h2>
                                   <p>Electronic typesetting rema essentially unchanged was popularised.</p>
-                                  <a href="service-single.html">READ MORE <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                                  <a href="service-single.php">READ MORE <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
                              </div>
                          </div>
                     </div>
@@ -389,9 +434,9 @@
                                  <img src="assets/images/service/8.jpg" alt="">
                              </div>
                              <div class="wpo-service-text">
-                                  <h2><a href="service-single.html">Renovation</a></h2>
+                                  <h2><a href="service-single.php">Renovation</a></h2>
                                   <p>Electronic typesetting rema essentially unchanged was popularised.</p>
-                                  <a href="service-single.html">READ MORE <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                                  <a href="service-single.php">READ MORE <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
                              </div>
                          </div>
                     </div>
@@ -401,9 +446,9 @@
                                  <img src="assets/images/service/9.jpg" alt="">
                              </div>
                              <div class="wpo-service-text">
-                                  <h2><a href="service-single.html">OutFiled Digging</a></h2>
+                                  <h2><a href="service-single.php">OutFiled Digging</a></h2>
                                   <p>Electronic typesetting rema essentially unchanged was popularised.</p>
-                                  <a href="service-single.html">READ MORE <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                                  <a href="service-single.php">READ MORE <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
                              </div>
                          </div>
                     </div>
@@ -417,10 +462,28 @@
         </section>
         <!-- end of wpo-service-section -->
         <!-- start wpo-fun-fact-section -->
-        <section class="wpo-fun-fact-section-s2 section-padding">
+        <section class="wpo-fun-fact-section section-padding">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col col-lg-12">
+                    <div class="col-lg-5">
+                        <div class="wpo-funfacts-text">
+                            <h3>We Are Provide Always Different From Other Services.</h3>
+                            <div class="customer-review">
+                                <h2>89K</h2>
+                                <div class="reviews">
+                                    <ul>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                    </ul>
+                                    <span>Customer Review</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-lg-6 offset-lg-1">
                         <div class="wpo-fun-fact-grids clearfix">
                             <div class="grid">
                                 <div class="icon">
@@ -464,7 +527,7 @@
             </div> <!-- end container -->
         </section>
         <!-- end wpo-fun-fact-section -->
-          <!-- start wpo-projects -->
+        <!-- start wpo-projects -->
         <section class="wpo-projects section-padding">
             <div class="container">
                 <div class="row align-items-center justify-content-center">
@@ -495,7 +558,7 @@
                                     </div>
                                     <div class="hover-content">
                                         <div class="details">
-                                            <h3><a href="project-single.html">Commercial Construction Construction</a></h3>
+                                            <h3><a href="project-single.php">Commercial Construction Construction</a></h3>
                                             <p class="cat">Construction</p>
                                         </div>
                                     </div>
@@ -508,7 +571,7 @@
                                     </div>
                                     <div class="hover-content">
                                         <div class="details">
-                                            <h3><a href="project-single.html">Commercial Construction Construction</a></h3>
+                                            <h3><a href="project-single.php">Commercial Construction Construction</a></h3>
                                             <p class="cat">Construction</p>
                                         </div>
                                     </div>
@@ -521,7 +584,7 @@
                                     </div>
                                     <div class="hover-content">
                                         <div class="details">
-                                            <h3><a href="project-single.html">Commercial Construction Construction</a></h3>
+                                            <h3><a href="project-single.php">Commercial Construction Construction</a></h3>
                                             <p class="cat">Construction</p>
                                         </div>
                                     </div>
@@ -534,7 +597,7 @@
                                     </div>
                                     <div class="hover-content">
                                         <div class="details">
-                                            <h3><a href="project-single.html">Commercial Construction Construction</a></h3>
+                                            <h3><a href="project-single.php">Commercial Construction Construction</a></h3>
                                             <p class="cat">Construction</p>
                                         </div>
                                     </div>
@@ -547,7 +610,7 @@
                                     </div>
                                     <div class="hover-content">
                                         <div class="details">
-                                            <h3><a href="project-single.html">Commercial Construction Construction</a></h3>
+                                            <h3><a href="project-single.php">Commercial Construction Construction</a></h3>
                                             <p class="cat">Construction</p>
                                         </div>
                                     </div>
@@ -560,7 +623,7 @@
                                     </div>
                                     <div class="hover-content">
                                         <div class="details">
-                                            <h3><a href="project-single.html">Commercial Construction Construction</a></h3>
+                                            <h3><a href="project-single.php">Commercial Construction Construction</a></h3>
                                             <p class="cat">Construction</p>
                                         </div>
                                     </div>
@@ -573,7 +636,7 @@
                                     </div>
                                     <div class="hover-content">
                                         <div class="details">
-                                            <h3><a href="project-single.html">Commercial Construction Construction</a></h3>
+                                            <h3><a href="project-single.php">Commercial Construction Construction</a></h3>
                                             <p class="cat">Construction</p>
                                         </div>
                                     </div>
@@ -586,7 +649,7 @@
                                     </div>
                                     <div class="hover-content">
                                         <div class="details">
-                                            <h3><a href="project-single.html">Commercial Construction Construction</a></h3>
+                                            <h3><a href="project-single.php">Commercial Construction Construction</a></h3>
                                             <p class="cat">Construction</p>
                                         </div>
                                     </div>
@@ -599,7 +662,7 @@
                                     </div>
                                     <div class="hover-content">
                                         <div class="details">
-                                            <h3><a href="project-single.html">Commercial Construction Construction</a></h3>
+                                            <h3><a href="project-single.php">Commercial Construction Construction</a></h3>
                                             <p class="cat">Construction</p>
                                         </div>
                                     </div>
@@ -638,7 +701,7 @@
                                     </div>
                                 </div>
                                 <div class="wpo-team-text">
-                                    <h2><a href="team.html">Henry Barton</a></h2>
+                                    <h2><a href="team.php">Henry Barton</a></h2>
                                     <span>Team Leader</span>
                                 </div>
                             </div>
@@ -656,7 +719,7 @@
                                     </div>
                                 </div>
                                 <div class="wpo-team-text">
-                                    <h2><a href="team.html">Mattie Washington</a></h2>
+                                    <h2><a href="team.php">Mattie Washington</a></h2>
                                     <span>Junior Member</span>
                                 </div>
                             </div>
@@ -674,7 +737,7 @@
                                     </div>
                                 </div>
                                 <div class="wpo-team-text">
-                                    <h2><a href="team.html">Winifred Harmon</a></h2>
+                                    <h2><a href="team.php">Winifred Harmon</a></h2>
                                     <span>Team Leader</span>
                                 </div>
                             </div>
@@ -692,7 +755,7 @@
                                     </div>
                                 </div>
                                 <div class="wpo-team-text">
-                                    <h2><a href="team.html">Shelia Lawrence</a></h2>
+                                    <h2><a href="team.php">Shelia Lawrence</a></h2>
                                     <span>Senior Member</span>
                                 </div>
                             </div>
@@ -722,7 +785,7 @@
                                     <span>ONLINE BOOKING</span>
                                     <h2>Online Booking For Appointments.</h2>
                                 </div>
-                                <form method="post" class="contact-validation-active" >
+                                <form method="post" class="contact-validation-active" id="contact-form">
                                     <div class="row">
                                         <div class="col col-lg-6 col-md-6 col-12">
                                             <div class="form-group">
@@ -748,7 +811,7 @@
                                         <div class="col col-lg-6 col-md-6 col-12">
                                             <div class="form-group">
                                                 <label>Select service*</label>
-                                               <select name="subject" class="form-control">
+                                                 <select name="subject" class="form-control">
                                                     <option disabled="disabled" selected>Subject</option>
                                                     <option value="Building Construction">Building Construction</option>
                             <option value="House Roomodel">House Roomodel</option>
@@ -765,7 +828,7 @@
                                         <div class="col fullwidth col-lg-12 ">
                                             <div class="form-group">
                                                 <label for="note">Short text*</label>
-                                                <textarea class="form-control" name="messagge" id="message"
+                                                <textarea class="form-control" name="note" id="note"
                                                     placeholder="Type your message"></textarea>
                                             </div>
                                         </div>
@@ -874,11 +937,11 @@
                                     <img src="assets/images/blog/img-1.jpg" alt="">
                                 </div>
                                 <div class="wpo-blog-content">
-                                    <a class="date" href="blog-single.html">22 September, 2020</a>
-                                    <h2><a href="blog-single.html">Making this the first true ones the uses a dictionary.</a></h2>
+                                    <a class="date" href="blog-single.php">11 Nov,2021</a>
+                                    <h2><a href="blog-single.php">Making this the first true ones the uses a dictionary.</a></h2>
                                     <ul>
                                         <li>Mabel Fox</li>
-                                        <li><a href="blog-single.html">26 Comments</a></li>
+                                        <li><a href="blog-single.php">26 Comments</a></li>
                                         <li>35 Share</li>
                                     </ul>
                                 </div>
@@ -890,11 +953,11 @@
                                     <img src="assets/images/blog/img-2.jpg" alt="">
                                 </div>
                                 <div class="wpo-blog-content">
-                                    <a class="date" href="blog-single.html">22 September, 2020</a>
-                                    <h2><a href="blog-single.html">A Behind the scenes look of your Construction company</a></h2>
+                                    <a class="date" href="blog-single.php">11 Nov,2021</a>
+                                    <h2><a href="blog-single.php">A Behind the scenes look of your Construction company</a></h2>
                                     <ul>
                                         <li>Mabel Fox</li>
-                                        <li><a href="blog-single.html">26 Comments</a></li>
+                                        <li><a href="blog-single.php">26 Comments</a></li>
                                         <li>35 Share</li>
                                     </ul>
                                 </div>
@@ -906,11 +969,11 @@
                                     <img src="assets/images/blog/img-3.jpg" alt="">
                                 </div>
                                 <div class="wpo-blog-content">
-                                    <a class="date" href="blog-single.html">22 September, 2020</a>
-                                    <h2><a href="blog-single.html">Now grab your tool belt and get to work!</a></h2>
+                                    <a class="date" href="blog-single.php">11 Nov,2021</a>
+                                    <h2><a href="blog-single.php">Now grab your tool belt and get to work!</a></h2>
                                     <ul>
                                         <li>Mabel Fox</li>
-                                        <li><a href="blog-single.html">26 Comments</a></li>
+                                        <li><a href="blog-single.php">26 Comments</a></li>
                                         <li>35 Share</li>
                                     </ul>
                                 </div>
@@ -921,7 +984,7 @@
             </div> <!-- end container -->
         </section>
         <!-- end wpo-blog-section -->
-         <!-- start of wpo-site-footer-section -->
+        <!-- start of wpo-site-footer-section -->
         <footer class="wpo-site-footer">
             <div class="wpo-upper-footer">
                 <div class="container">
@@ -966,7 +1029,7 @@
                                     <ul>
                                         <li><i class="fi flaticon-location"></i>7 Green Lake Street Crawfordsville, IN 47933</li>
                                         <li><i class="fi flaticon-phone-call"></i>+1 800 123 456 789</li>
-                                     <li><i class="fi flaticon-send"></i>info@example.com</li>
+                                  <li><i class="fi flaticon-send"></i>info@example.com</li>
                                     </ul>
                                 </div>
                             </div>
@@ -976,12 +1039,12 @@
                                 <div class="widget-title">
                                     <h3>Services </h3>
                                 </div>
-                                <ul>
-                                    <li><a href="service-single.html">Building Construction</a></li>
-                                    <li><a href="service-single.html">House Construction</a></li>
-                                    <li><a href="service-single.html">Interior Desing</a></li>
-                                    <li><a href="service-single.html">Road Construction</a></li>
-                                    <li><a href="service-single.html">OutFiled Digging</a></li>
+                              <ul>
+                                    <li><a href="service-single.php">Building Construction</a></li>
+                                    <li><a href="service-single.php">House Construction</a></li>
+                                    <li><a href="service-single.php">Interior Desing</a></li>
+                                    <li><a href="service-single.php">Road Construction</a></li>
+                                    <li><a href="service-single.php">OutFiled Digging</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -992,12 +1055,12 @@
                                     <h3>Projects</h3>
                                 </div>
                                 <ul class="d-flex">
-                                    <li><a href="project-single.html"><img src="assets/images/instragram/1.jpg" alt=""></a></li>
-                                    <li><a href="project-single.html"><img src="assets/images/instragram/2.jpg" alt=""></a></li>
-                                    <li><a href="project-single.html"><img src="assets/images/instragram/3.jpg" alt=""></a></li>
-                                    <li><a href="project-single.html"><img src="assets/images/instragram/4.jpg" alt=""></a></li>
-                                    <li><a href="project-single.html"><img src="assets/images/instragram/5.jpg" alt=""></a></li>
-                                    <li><a href="project-single.html"><img src="assets/images/instragram/6.jpg" alt=""></a></li>
+                                    <li><a href="project-single.php"><img src="assets/images/instragram/1.jpg" alt=""></a></li>
+                                    <li><a href="project-single.php"><img src="assets/images/instragram/2.jpg" alt=""></a></li>
+                                    <li><a href="project-single.php"><img src="assets/images/instragram/3.jpg" alt=""></a></li>
+                                    <li><a href="project-single.php"><img src="assets/images/instragram/4.jpg" alt=""></a></li>
+                                    <li><a href="project-single.php"><img src="assets/images/instragram/5.jpg" alt=""></a></li>
+                                    <li><a href="project-single.php"><img src="assets/images/instragram/6.jpg" alt=""></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -1028,6 +1091,44 @@
     <script src="assets/js/jquery-plugin-collection.js"></script>
     <!-- Custom script for this template -->
     <script src="assets/js/script.js"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
 </body>
 
 

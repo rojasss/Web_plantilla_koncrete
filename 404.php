@@ -7,9 +7,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="">
+   <meta name="author" content="">
     <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
-    <title>koncrete | Construction & Building Template</title>
+   <title>koncrete | Construction & Building Template</title>
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
     <link href="assets/css/themify-icons.css" rel="stylesheet">
     <link href="assets/css/flaticon.css" rel="stylesheet">
@@ -112,7 +112,7 @@
                             </div>
                             <div class="col-lg-3 col-md-6 col-6">
                                 <div class="navbar-header">
-                                    <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png"
+                                    <a class="navbar-brand" href="index.php"><img src="assets/images/logo.png"
                                             alt=""></a>
                                 </div>
                             </div>
@@ -123,52 +123,52 @@
                                         <li class="menu-item-has-children">
                                             <a href="#">Home</a>
                                             <ul class="sub-menu">
-                                                <li><a href="index.html">Home style 1</a></li>
-                                                <li><a href="index-2.html">Home style 2</a></li>
-                                                <li><a href="index-3.html">Home style 3</a></li>
+                                                <li><a href="index.php">Home style 1</a></li>
+                                                <li><a href="index-2.php">Home style 2</a></li>
+                                                <li><a href="index-3.php">Home style 3</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="about.html">About</a></li>
+                                        <li><a href="about.php">About</a></li>
                                         <li class="menu-item-has-children">
                                             <a href="#">Services</a>
                                             <ul class="sub-menu">
-                                                <li><a href="service.html">Service</a></li>
-                                                <li><a href="service-s2.html">Service style 2</a></li>
-                                                <li><a href="service-single.html">Service Single</a></li>
+                                                <li><a href="service.php">Service</a></li>
+                                                <li><a href="service-s2.php">Service style 2</a></li>
+                                                <li><a href="service-single.php">Service Single</a></li>
                                             </ul>
                                         </li>
                                         <li class="menu-item-has-children">
                                             <a class="active" href="#">pages</a>
                                             <ul class="sub-menu">
-                                                <li><a href="project.html">Project</a></li>
-                                                <li><a href="project-single.html">Project Single</a></li>
-                                                <li><a class="active" href="appointment.html">Appointment</a></li>
-                                                <li><a href="terms.html">Terms & Conditions</a></li>
-                                                <li><a href="testimonial.html">Testimonial</a></li>
-                                                <li><a href="pricing.html">Pricing</a></li>
-                                                <li><a href="404.html">Error 404</a></li>
+                                                <li><a href="project.php">Project</a></li>
+                                                <li><a href="project-single.php">Project Single</a></li>
+                                                <li><a href="appointment.php">Appointment</a></li>
+                                                <li><a href="terms.php">Terms & Conditions</a></li>
+                                                <li><a href="testimonial.php">Testimonial</a></li>
+                                                <li><a href="pricing.php">Pricing</a></li>
+                                                <li><a class="active" href="404.php">Error 404</a></li>
                                             </ul>
                                         </li>
                                         <li class="menu-item-has-children">
-                                            <a href="blog.html">Blog</a>
+                                            <a href="blog.php">Blog</a>
                                             <ul class="sub-menu">
-                                                <li><a href="blog.html">Blog right sidebar</a></li>
-                                                <li><a href="blog-left-sidebar.html">Blog left sidebar</a></li>
-                                                <li><a href="blog-fullwidth.html">Blog fullwidth</a></li>
+                                                <li><a href="blog.php">Blog right sidebar</a></li>
+                                                <li><a href="blog-left-sidebar.php">Blog left sidebar</a></li>
+                                                <li><a href="blog-fullwidth.php">Blog fullwidth</a></li>
                                                 <li class="menu-item-has-children">
                                                     <a href="#">Blog details</a>
                                                     <ul class="sub-menu">
-                                                        <li><a href="blog-single.html">Blog details right sidebar</a>
+                                                        <li><a href="blog-single.php">Blog details right sidebar</a>
                                                         </li>
-                                                        <li><a href="blog-single-left-sidebar.html">Blog details left
+                                                        <li><a href="blog-single-left-sidebar.php">Blog details left
                                                                 sidebar</a></li>
-                                                        <li><a href="blog-single-fullwidth.html">Blog details
+                                                        <li><a href="blog-single-fullwidth.php">Blog details
                                                                 fullwidth</a></li>
                                                     </ul>
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="contact.php">Contact</a></li>
                                     </ul>
 
                                 </div><!-- end of nav-collapse -->
@@ -192,7 +192,7 @@
                                         </div>
                                     </div>
                                     <div class="close-form">
-                                        <a class="theme-btn" href="contact.html">GET FREE QUOTE</a>
+                                        <a class="theme-btn" href="contact.php">GET FREE QUOTE</a>
                                     </div>
                                 </div>
                             </div>
@@ -208,10 +208,10 @@
                 <div class="row">
                     <div class="col col-xs-12">
                         <div class="wpo-breadcumb-wrap">
-                            <h2>Appointment</h2>
+                            <h2>404</h2>
                             <ol class="wpo-breadcumb-wrap">
-                                <li><a href="index.html">Home</a></li>
-                                <li>Appointment</li>
+                                <li><a href="index.php">Home</a></li>
+                                <li>404</li>
                             </ol>
                         </div>
                     </div>
@@ -219,85 +219,27 @@
             </div> <!-- end container -->
         </section>
         <!-- end page-title -->
-        <!-- start of wpo-contact-section -->
-        <section class="wpo-contact-section-s2 section-padding">
+        <!-- start error-404-section -->
+        <section class="error-404-section section-padding">
             <div class="container">
-                <div class="wpo-contact-section-wrapper">
-                    <div class="row align-items-center justify-content-center">
-                        <div class="col-lg-8 col-md-12 col-12">
-                            <div class="wpo-contact-form-area">
-                                <div class="wpo-section-title-s2">
-                                    <span>ONLINE BOOKING</span>
-                                    <h2>Online Booking For Appointments.</h2>
-                                </div>
-                                <form method="post" class="contact-validation-active" >
-                                    <div class="row">
-                                        <div class="col col-lg-6 col-md-6 col-12">
-                                            <div class="form-group">
-                                                <label for="name">Full name here*</label>
-                                                <input type="text" class="form-control" name="name" id="name"
-                                                    placeholder="Ross Ward">
-                                            </div>
-                                        </div>
-                                        <div class="col col-lg-6 col-md-6 col-12">
-                                            <div class="form-group">
-                                                <label for="email">Email here*</label>
-                                                <input type="email" class="form-control" name="email" id="email"
-                                                    placeholder="rossward@gmail.com">
-                                            </div>
-                                        </div>
-                                        <div class="col col-lg-6 col-md-6 col-12">
-                                            <div class="form-group">
-                                                <label for="phone">Contact number*</label>
-                                                <input type="text" class="form-control" name="phone" id="phone"
-                                                    placeholder="+88 *** *** ***">
-                                            </div>
-                                        </div>
-                                        <div class="col col-lg-6 col-md-6 col-12">
-                                            <div class="form-group">
-                                                <label>Select service*</label>
-                                                <select name="subject" class="form-control">
-                                                    <option disabled="disabled" selected>Subject</option>
-                                                 <option value="Building Construction">Building Construction</option>
-                            <option value="House Roomodel">House Roomodel</option>
-                            <option value="Interior Design">Interior Design</option>
-                            <option value="Renovation">Renovation</option>
-                            <option value="OutField Digging">OutField Digging</option>
-                            <option value="Road Construction">Road Construction</option>
-    <option value="Floors & Roofs">Floors & Roofs</option>
-                            <option value="Plumbing">Plumbing</option>
-                            <option value="Electricity">Electricity</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="col fullwidth col-lg-12 ">
-                                            <div class="form-group">
-                                                <label for="note">Short text*</label>
-                                                <textarea class="form-control" name="message" id="message"
-                                                    placeholder="Type your message"></textarea>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="submit-area">
-                                        <button type="submit" class="theme-btn">GET AN APPOINMENT</button>
-                                        <div id="loader">
-                                            <i class="ti-reload"></i>
-                                        </div>
-                                    </div>
-                                    <div class="clearfix error-handling-messages">
-                                        <div id="success">Thank you</div>
-                                        <div id="error"> Error occurred while sending email. Please try again later.
-                                        </div>
-                                    </div>
-                                </form>
-                                <div class="border-style"></div>
+                <div class="row">
+                    <div class="col col-xs-12">
+                        <div class="content clearfix">
+                            <div class="error">
+                                <img src="assets/images/error-404.png" alt>
+                            </div>
+                            <div class="error-message">
+                                <h3>Oops! Page Not Found!</h3>
+                                <p>We’re sorry but we can’t seem to find the page you requested. This might be because
+                                    you have typed the web address incorrectly.</p>
+                                <a href="index.php" class="theme-btn">Back to home</a>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
+                </div> <!-- end row -->
+            </div> <!-- end container -->
         </section>
-        <!-- end of wpo-contact-section -->
+        <!-- end error-404-section -->
         <!-- start of wpo-site-footer-section -->
         <footer class="wpo-site-footer">
             <div class="wpo-upper-footer">
@@ -309,7 +251,7 @@
                                <div class="widget-title">
                                     <h3>About Us </h3>
                                 </div>
-                                <p>With more than 30 years of experience, the Construction services company has become the largest Construction company in the country.</p>
+                                <p>With more than 30 years of experience, the roofing services company has become the largest roofing company in the country.</p>
                                 <ul>
                                     <li>
                                         <a href="#">
@@ -343,7 +285,7 @@
                                     <ul>
                                         <li><i class="fi flaticon-location"></i>7 Green Lake Street Crawfordsville, IN 47933</li>
                                         <li><i class="fi flaticon-phone-call"></i>+1 800 123 456 789</li>
-                                      <li><i class="fi flaticon-send"></i>info@example.com</li>
+                                       <li><i class="fi flaticon-send"></i>info@example.com</li>
                                     </ul>
                                 </div>
                             </div>
@@ -353,12 +295,12 @@
                                 <div class="widget-title">
                                     <h3>Services </h3>
                                 </div>
-                                <ul>
-                                    <li><a href="service-single.html">Building Construction</a></li>
-                                    <li><a href="service-single.html">House Construction</a></li>
-                                    <li><a href="service-single.html">Interior Desing</a></li>
-                                    <li><a href="service-single.html">Road Construction</a></li>
-                                    <li><a href="service-single.html">OutFiled Digging</a></li>
+                               <ul>
+                                    <li><a href="service-single.php">Building Construction</a></li>
+                                    <li><a href="service-single.php">House Construction</a></li>
+                                    <li><a href="service-single.php">Interior Desing</a></li>
+                                    <li><a href="service-single.php">Road Construction</a></li>
+                                    <li><a href="service-single.php">OutFiled Digging</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -369,12 +311,12 @@
                                     <h3>Projects</h3>
                                 </div>
                                 <ul class="d-flex">
-                                    <li><a href="project-single.html"><img src="assets/images/instragram/1.jpg" alt=""></a></li>
-                                    <li><a href="project-single.html"><img src="assets/images/instragram/2.jpg" alt=""></a></li>
-                                    <li><a href="project-single.html"><img src="assets/images/instragram/3.jpg" alt=""></a></li>
-                                    <li><a href="project-single.html"><img src="assets/images/instragram/4.jpg" alt=""></a></li>
-                                    <li><a href="project-single.html"><img src="assets/images/instragram/5.jpg" alt=""></a></li>
-                                    <li><a href="project-single.html"><img src="assets/images/instragram/6.jpg" alt=""></a></li>
+                                    <li><a href="project-single.php"><img src="assets/images/instragram/1.jpg" alt=""></a></li>
+                                    <li><a href="project-single.php"><img src="assets/images/instragram/2.jpg" alt=""></a></li>
+                                    <li><a href="project-single.php"><img src="assets/images/instragram/3.jpg" alt=""></a></li>
+                                    <li><a href="project-single.php"><img src="assets/images/instragram/4.jpg" alt=""></a></li>
+                                    <li><a href="project-single.php"><img src="assets/images/instragram/5.jpg" alt=""></a></li>
+                                    <li><a href="project-single.php"><img src="assets/images/instragram/6.jpg" alt=""></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -406,6 +348,5 @@
     <!-- Custom script for this template -->
     <script src="assets/js/script.js"></script>
 </body>
-
 
 </html>

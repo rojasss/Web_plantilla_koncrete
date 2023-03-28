@@ -2,13 +2,14 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="">
+  <meta name="author" content="">
     <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
-    <title>koncrete | Construction & Building Template</title>
+ <title>koncrete | Construction & Building Template</title>
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
     <link href="assets/css/themify-icons.css" rel="stylesheet">
     <link href="assets/css/flaticon.css" rel="stylesheet">
@@ -111,7 +112,7 @@
                             </div>
                             <div class="col-lg-3 col-md-6 col-6">
                                 <div class="navbar-header">
-                                    <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png"
+                                    <a class="navbar-brand" href="index.php"><img src="assets/images/logo.png"
                                             alt=""></a>
                                 </div>
                             </div>
@@ -122,52 +123,52 @@
                                         <li class="menu-item-has-children">
                                             <a href="#">Home</a>
                                             <ul class="sub-menu">
-                                                <li><a href="index.html">Home style 1</a></li>
-                                                <li><a href="index-2.html">Home style 2</a></li>
-                                                <li><a href="index-3.html">Home style 3</a></li>
+                                                <li><a href="index.php">Home style 1</a></li>
+                                                <li><a href="index-2.php">Home style 2</a></li>
+                                                <li><a href="index-3.php">Home style 3</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="about.html">About</a></li>
+                                        <li><a href="about.php">About</a></li>
                                         <li class="menu-item-has-children">
                                             <a href="#">Services</a>
                                             <ul class="sub-menu">
-                                                <li><a href="service.html">Service</a></li>
-                                                <li><a href="service-s2.html">Service style 2</a></li>
-                                                <li><a href="service-single.html">Service Single</a></li>
+                                                <li><a href="service.php">Service</a></li>
+                                                <li><a href="service-s2.php">Service style 2</a></li>
+                                                <li><a href="service-single.php">Service Single</a></li>
                                             </ul>
                                         </li>
                                         <li class="menu-item-has-children">
-                                            <a href="#">pages</a>
+                                            <a class="active" href="#">pages</a>
                                             <ul class="sub-menu">
-                                                <li><a href="project.html">Project</a></li>
-                                                <li><a href="project-single.html">Project Single</a></li>
-                                                <li><a href="appointment.html">Appointment</a></li>
-                                                <li><a href="terms.html">Terms & Conditions</a></li>
-                                                <li><a href="testimonial.html">Testimonial</a></li>
-                                                <li><a href="pricing.html">Pricing</a></li>
-                                                <li><a href="404.html">Error 404</a></li>
+                                                <li><a class="active" href="project.php">Project</a></li>
+                                                <li><a href="project-single.php">Project Single</a></li>
+                                                <li><a href="appointment.php">Appointment</a></li>
+                                                <li><a href="terms.php">Terms & Conditions</a></li>
+                                                <li><a href="testimonial.php">Testimonial</a></li>
+                                                <li><a href="pricing.php">Pricing</a></li>
+                                                <li><a href="404.php">Error 404</a></li>
                                             </ul>
                                         </li>
                                         <li class="menu-item-has-children">
-                                            <a href="blog.html">Blog</a>
+                                            <a href="blog.php">Blog</a>
                                             <ul class="sub-menu">
-                                                <li><a href="blog.html">Blog right sidebar</a></li>
-                                                <li><a href="blog-left-sidebar.html">Blog left sidebar</a></li>
-                                                <li><a href="blog-fullwidth.html">Blog fullwidth</a></li>
+                                                <li><a href="blog.php">Blog right sidebar</a></li>
+                                                <li><a href="blog-left-sidebar.php">Blog left sidebar</a></li>
+                                                <li><a href="blog-fullwidth.php">Blog fullwidth</a></li>
                                                 <li class="menu-item-has-children">
                                                     <a href="#">Blog details</a>
                                                     <ul class="sub-menu">
-                                                        <li><a href="blog-single.html">Blog details right sidebar</a>
+                                                        <li><a href="blog-single.php">Blog details right sidebar</a>
                                                         </li>
-                                                        <li><a href="blog-single-left-sidebar.html">Blog details left
+                                                        <li><a href="blog-single-left-sidebar.php">Blog details left
                                                                 sidebar</a></li>
-                                                        <li><a href="blog-single-fullwidth.html">Blog details
+                                                        <li><a href="blog-single-fullwidth.php">Blog details
                                                                 fullwidth</a></li>
                                                     </ul>
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li><a class="active" href="contact.html">Contact</a></li>
+                                        <li><a href="contact.php">Contact</a></li>
                                     </ul>
 
                                 </div><!-- end of nav-collapse -->
@@ -191,7 +192,7 @@
                                         </div>
                                     </div>
                                     <div class="close-form">
-                                        <a class="theme-btn" href="contact.html">GET FREE QUOTE</a>
+                                        <a class="theme-btn" href="contact.php">GET FREE QUOTE</a>
                                     </div>
                                 </div>
                             </div>
@@ -207,10 +208,10 @@
                 <div class="row">
                     <div class="col col-xs-12">
                         <div class="wpo-breadcumb-wrap">
-                            <h2>Contact</h2>
+                            <h2>Project</h2>
                             <ol class="wpo-breadcumb-wrap">
-                                <li><a href="index.html">Home</a></li>
-                                <li>Contact</li>
+                                <li><a href="index.php">Home</a></li>
+                                <li>Project</li>
                             </ol>
                         </div>
                     </div>
@@ -218,123 +219,156 @@
             </div> <!-- end container -->
         </section>
         <!-- end page-title -->
-        <!-- start wpo-contact-pg-section -->
-        <section class="wpo-contact-pg-section section-padding">
+
+    <!-- start wpo-projects -->
+        <section class="wpo-projects section-padding">
             <div class="container">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="wpo-section-title">
+                            <h2>Our Latest Project</h2>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. has been
+                                the industry's standard dummy text ever since the 1500s.</p>
+                        </div>
+                    </div>
+                </div>
                 <div class="row">
-                    <div class="col col-lg-10 offset-lg-1">
-                        <div class="office-info">
-                            <div class="row">
-                                <div class="col col-xl-4 col-lg-6 col-md-6 col-12">
-                                    <div class="office-info-item">
-                                        <div class="office-info-icon">
-                                            <div class="icon">
-                                                <i class="fi flaticon-placeholder"></i>
-                                            </div>
-                                        </div>
-                                        <div class="office-info-text">
-                                            <h2>Address</h2>
-                                            <p>7 Green Lake Street Crawfordsville, IN 47933</p>
+                    <div class="col col-xs-12 sortable-gallery">
+                        <div class="gallery-filters projects-menu">
+                            <ul>
+                                <li><a data-filter="*" href="#" class="current">All Project</a></li>
+                                <li><a data-filter=".Residential" href="#">Residential</a></li>
+                                <li><a data-filter=".Commercial" href="#">Commercial</a></li>
+                                <li><a data-filter=".Factory" href="#">Factory</a></li>
+                                <li><a data-filter=".Roof Replacement" href="#">Roof Replacement</a></li>
+                            </ul>
+                        </div>
+                        <div class="projects-grids gallery-container clearfix">
+                            <div class="grid  Residential Factory">
+                                <div class="project-inner">
+                                    <div class="img-holder">
+                                        <img src="assets/images/projects/img-1.jpg" alt>
+                                    </div>
+                                    <div class="hover-content">
+                                        <div class="details">
+                                            <h3><a href="project-single.php">Commercial Construction Construction</a></h3>
+                                            <p class="cat">Construction</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col col-xl-4 col-lg-6 col-md-6 col-12">
-                                    <div class="office-info-item">
-                                        <div class="office-info-icon">
-                                            <div class="icon">
-                                                <i class="fi flaticon-email"></i>
-                                            </div>
-                                        </div>
-                                        <div class="office-info-text">
-                                            <h2>Email Us</h2>
-                                            <p>info@example.com</p>
-                                            <p>info@example.com</p>
+                            </div>
+                            <div class="grid Commercial">
+                                <div class="project-inner">
+                                    <div class="img-holder">
+                                        <img src="assets/images/projects/img-6.jpg" alt>
+                                    </div>
+                                    <div class="hover-content">
+                                        <div class="details">
+                                            <h3><a href="project-single.php">Commercial Construction Construction</a></h3>
+                                            <p class="cat">Construction</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col col-xl-4 col-lg-6 col-md-6 col-12">
-                                    <div class="office-info-item">
-                                        <div class="office-info-icon">
-                                            <div class="icon">
-                                                <i class="fi flaticon-phone-call"></i>
-                                            </div>
+                            </div>
+                            <div class="grid Factory">
+                                <div class="project-inner">
+                                    <div class="img-holder">
+                                        <img src="assets/images/projects/img-2.jpg" alt>
+                                    </div>
+                                    <div class="hover-content">
+                                        <div class="details">
+                                            <h3><a href="project-single.php">Commercial Construction Construction</a></h3>
+                                            <p class="cat">Construction</p>
                                         </div>
-                                        <div class="office-info-text">
-                                            <h2>Call Now</h2>
-                                            <p>+1 800 123 456 789</p>
-                                            <p>+1 800 123 654 987</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid Roof Replacement">
+                                <div class="project-inner">
+                                    <div class="img-holder">
+                                        <img src="assets/images/projects/img-7.jpg" alt>
+                                    </div>
+                                    <div class="hover-content">
+                                        <div class="details">
+                                            <h3><a href="project-single.php">Commercial Construction Construction</a></h3>
+                                            <p class="cat">Construction</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid Roof Replacement">
+                                <div class="project-inner">
+                                    <div class="img-holder">
+                                        <img src="assets/images/projects/img-8.jpg" alt>
+                                    </div>
+                                    <div class="hover-content">
+                                        <div class="details">
+                                            <h3><a href="project-single.php">Commercial Construction Construction</a></h3>
+                                            <p class="cat">Construction</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid Residential Factory">
+                                <div class="project-inner">
+                                    <div class="img-holder">
+                                        <img src="assets/images/projects/img-9.jpg" alt>
+                                    </div>
+                                    <div class="hover-content">
+                                        <div class="details">
+                                            <h3><a href="project-single.php">Commercial Construction Construction</a></h3>
+                                            <p class="cat">Construction</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid Residential Factory">
+                                <div class="project-inner">
+                                    <div class="img-holder">
+                                        <img src="assets/images/projects/img-3.jpg" alt>
+                                    </div>
+                                    <div class="hover-content">
+                                        <div class="details">
+                                            <h3><a href="project-single.php">Commercial Construction Construction</a></h3>
+                                            <p class="cat">Construction</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid Residential Factory">
+                                <div class="project-inner">
+                                    <div class="img-holder">
+                                        <img src="assets/images/projects/img-10.jpg" alt>
+                                    </div>
+                                    <div class="hover-content">
+                                        <div class="details">
+                                            <h3><a href="project-single.php">Commercial Construction Construction</a></h3>
+                                            <p class="cat">Construction</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid Residential Factory ">
+                                <div class="project-inner">
+                                    <div class="img-holder">
+                                        <img src="assets/images/projects/img-11.jpg" alt>
+                                    </div>
+                                    <div class="hover-content">
+                                        <div class="details">
+                                            <h3><a href="project-single.php">Commercial Construction Construction</a></h3>
+                                            <p class="cat">Construction</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="wpo-contact-title">
-                            <h2>Have Any Question?</h2>
-                            <p>It is a long established fact that a reader will be distracted
-                                content of a page when looking.</p>
-                        </div>
-                        <div class="wpo-contact-form-area">
-                            <form method="post" action="email.php" class="contact-validation-active" >
-                                <div>
-                                    <input type="text" class="form-control" name="name" id="name"
-                                        placeholder="Your Name*">
-                                </div>
-                                <div>
-                                    <input type="email" class="form-control" name="email" id="email"
-                                        placeholder="Your Email*">
-                                </div>
-                                <div>
-                                    <input type="text" class="form-control" name="phone" id="phone"
-                                        placeholder="Your Phone*">
-                                </div>
-                                <div>
-                                   <select name="subject" class="form-control">
-                                                    <option disabled="disabled" selected>Select Service</option>
-                                                   <option value="Building Construction">Building Construction</option>
-                            <option value="House Roomodel">House Roomodel</option>
-                            <option value="Interior Design">Interior Design</option>
-                            <option value="Renovation">Renovation</option>
-                            <option value="OutField Digging">OutField Digging</option>
-                            <option value="Road Construction">Road Construction</option>
-    <option value="Floors & Roofs">Floors & Roofs</option>
-                            <option value="Plumbing">Plumbing</option>
-                            <option value="Electricity">Electricity</option>
-                                                </select>
-                                </div>
-                                <div class="fullwidth">
-                                    <textarea class="form-control" name="message" id="message"
-                                        placeholder="Message..."></textarea>
-                                </div>
-                                <div class="submit-area">
-                                    <button type="submit" class="theme-btn"><i class="fa fa-angle-double-right"
-                                            aria-hidden="true"></i> Get in Touch</button>
-                                    <div id="loader">
-                                        <i class="ti-reload"></i>
-                                    </div>
-                                </div>
-                                <div class="clearfix error-handling-messages">
-                                    <div id="success">Thank you</div>
-                                    <div id="error"> Error occurred while sending email. Please try again later. </div>
-                                </div>
-                            </form>
-                        </div>
                     </div>
                 </div>
-            </div> <!-- end container -->
-        </section>
-        <!-- end wpo-contact-pg-section -->
-
-        <!--  start wpo-contact-map -->
-        <section class="wpo-contact-map-section">
-            <h2 class="hidden">Contact map</h2>
-            <div class="wpo-contact-map">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.9147703055!2d-74.11976314309273!3d40.69740344223377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbd!4v1547528325671"
-                    allowfullscreen></iframe>
             </div>
         </section>
-        <!-- end wpo-contact-map -->
-          <!-- start of wpo-site-footer-section -->
+        <!-- end wpo-projects -->
+
+         <!-- start of wpo-site-footer-section -->
         <footer class="wpo-site-footer">
             <div class="wpo-upper-footer">
                 <div class="container">
@@ -379,7 +413,7 @@
                                     <ul>
                                         <li><i class="fi flaticon-location"></i>7 Green Lake Street Crawfordsville, IN 47933</li>
                                         <li><i class="fi flaticon-phone-call"></i>+1 800 123 456 789</li>
-                                     <li><i class="fi flaticon-send"></i>info@example.com</li>
+                                   <li><i class="fi flaticon-send"></i>info@example.com</li>
                                     </ul>
                                 </div>
                             </div>
@@ -389,12 +423,12 @@
                                 <div class="widget-title">
                                     <h3>Services </h3>
                                 </div>
-                                <ul>
-                                    <li><a href="service-single.html">Flat Construction</a></li>
-                                    <li><a href="service-single.html">Tile Construction</a></li>
-                                    <li><a href="service-single.html">Metal Construction</a></li>
-                                    <li><a href="service-single.html">Gutter cleaning</a></li>
-                                    <li><a href="service-single.html">Emergency Construction</a></li>
+                              <ul>
+                                    <li><a href="service-single.php">Building Construction</a></li>
+                                    <li><a href="service-single.php">House Construction</a></li>
+                                    <li><a href="service-single.php">Interior Desing</a></li>
+                                    <li><a href="service-single.php">Road Construction</a></li>
+                                    <li><a href="service-single.php">OutFiled Digging</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -405,12 +439,12 @@
                                     <h3>Projects</h3>
                                 </div>
                                 <ul class="d-flex">
-                                    <li><a href="project-single.html"><img src="assets/images/instragram/1.jpg" alt=""></a></li>
-                                    <li><a href="project-single.html"><img src="assets/images/instragram/2.jpg" alt=""></a></li>
-                                    <li><a href="project-single.html"><img src="assets/images/instragram/3.jpg" alt=""></a></li>
-                                    <li><a href="project-single.html"><img src="assets/images/instragram/4.jpg" alt=""></a></li>
-                                    <li><a href="project-single.html"><img src="assets/images/instragram/5.jpg" alt=""></a></li>
-                                    <li><a href="project-single.html"><img src="assets/images/instragram/6.jpg" alt=""></a></li>
+                                    <li><a href="project-single.php"><img src="assets/images/instragram/1.jpg" alt=""></a></li>
+                                    <li><a href="project-single.php"><img src="assets/images/instragram/2.jpg" alt=""></a></li>
+                                    <li><a href="project-single.php"><img src="assets/images/instragram/3.jpg" alt=""></a></li>
+                                    <li><a href="project-single.php"><img src="assets/images/instragram/4.jpg" alt=""></a></li>
+                                    <li><a href="project-single.php"><img src="assets/images/instragram/5.jpg" alt=""></a></li>
+                                    <li><a href="project-single.php"><img src="assets/images/instragram/6.jpg" alt=""></a></li>
                                 </ul>
                             </div>
                         </div>

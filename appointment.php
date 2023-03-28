@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="">
     <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
- <title>koncrete | Construction & Building Template</title>
+    <title>koncrete | Construction & Building Template</title>
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
     <link href="assets/css/themify-icons.css" rel="stylesheet">
     <link href="assets/css/flaticon.css" rel="stylesheet">
@@ -112,7 +112,7 @@
                             </div>
                             <div class="col-lg-3 col-md-6 col-6">
                                 <div class="navbar-header">
-                                    <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png"
+                                    <a class="navbar-brand" href="index.php"><img src="assets/images/logo.png"
                                             alt=""></a>
                                 </div>
                             </div>
@@ -123,52 +123,52 @@
                                         <li class="menu-item-has-children">
                                             <a href="#">Home</a>
                                             <ul class="sub-menu">
-                                                <li><a href="index.html">Home style 1</a></li>
-                                                <li><a href="index-2.html">Home style 2</a></li>
-                                                <li><a href="index-3.html">Home style 3</a></li>
+                                                <li><a href="index.php">Home style 1</a></li>
+                                                <li><a href="index-2.php">Home style 2</a></li>
+                                                <li><a href="index-3.php">Home style 3</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="about.html">About</a></li>
+                                        <li><a href="about.php">About</a></li>
                                         <li class="menu-item-has-children">
-                                            <a class="active" href="#">Services</a>
+                                            <a href="#">Services</a>
                                             <ul class="sub-menu">
-                                                <li><a href="service.html">Service</a></li>
-                                                <li><a href="service-s2.html">Service style 2</a></li>
-                                                <li><a class="active" href="service-single.html">Service Single</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item-has-children">
-                                            <a href="#">pages</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="project.html">Project</a></li>
-                                                <li><a href="project-single.html">Project Single</a></li>
-                                                <li><a href="appointment.html">Appointment</a></li>
-                                                <li><a href="terms.html">Terms & Conditions</a></li>
-                                                <li><a href="testimonial.html">Testimonial</a></li>
-                                                <li><a href="pricing.html">Pricing</a></li>
-                                                <li><a href="404.html">Error 404</a></li>
+                                                <li><a href="service.php">Service</a></li>
+                                                <li><a href="service-s2.php">Service style 2</a></li>
+                                                <li><a href="service-single.php">Service Single</a></li>
                                             </ul>
                                         </li>
                                         <li class="menu-item-has-children">
-                                            <a href="blog.html">Blog</a>
+                                            <a class="active" href="#">pages</a>
                                             <ul class="sub-menu">
-                                                <li><a href="blog.html">Blog right sidebar</a></li>
-                                                <li><a href="blog-left-sidebar.html">Blog left sidebar</a></li>
-                                                <li><a href="blog-fullwidth.html">Blog fullwidth</a></li>
+                                                <li><a href="project.php">Project</a></li>
+                                                <li><a href="project-single.php">Project Single</a></li>
+                                                <li><a class="active" href="appointment.php">Appointment</a></li>
+                                                <li><a href="terms.php">Terms & Conditions</a></li>
+                                                <li><a href="testimonial.php">Testimonial</a></li>
+                                                <li><a href="pricing.php">Pricing</a></li>
+                                                <li><a href="404.php">Error 404</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <a href="blog.php">Blog</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="blog.php">Blog right sidebar</a></li>
+                                                <li><a href="blog-left-sidebar.php">Blog left sidebar</a></li>
+                                                <li><a href="blog-fullwidth.php">Blog fullwidth</a></li>
                                                 <li class="menu-item-has-children">
                                                     <a href="#">Blog details</a>
                                                     <ul class="sub-menu">
-                                                        <li><a href="blog-single.html">Blog details right sidebar</a>
+                                                        <li><a href="blog-single.php">Blog details right sidebar</a>
                                                         </li>
-                                                        <li><a href="blog-single-left-sidebar.html">Blog details left
+                                                        <li><a href="blog-single-left-sidebar.php">Blog details left
                                                                 sidebar</a></li>
-                                                        <li><a href="blog-single-fullwidth.html">Blog details
+                                                        <li><a href="blog-single-fullwidth.php">Blog details
                                                                 fullwidth</a></li>
                                                     </ul>
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="contact.php">Contact</a></li>
                                     </ul>
 
                                 </div><!-- end of nav-collapse -->
@@ -192,7 +192,7 @@
                                         </div>
                                     </div>
                                     <div class="close-form">
-                                        <a class="theme-btn" href="contact.html">GET FREE QUOTE</a>
+                                        <a class="theme-btn" href="contact.php">GET FREE QUOTE</a>
                                     </div>
                                 </div>
                             </div>
@@ -208,10 +208,10 @@
                 <div class="row">
                     <div class="col col-xs-12">
                         <div class="wpo-breadcumb-wrap">
-                            <h2>Home Construction</h2>
+                            <h2>Appointment</h2>
                             <ol class="wpo-breadcumb-wrap">
-                                <li><a href="index.html">Home</a></li>
-                                <li>Service</li>
+                                <li><a href="index.php">Home</a></li>
+                                <li>Appointment</li>
                             </ol>
                         </div>
                     </div>
@@ -219,131 +219,86 @@
             </div> <!-- end container -->
         </section>
         <!-- end page-title -->
-        <!-- .wpo-project-details-area start -->
-
-        <div class="wpo-project-details-area wpo-service-details section-padding">
+        <!-- start of wpo-contact-section -->
+        <section class="wpo-contact-section-s2 section-padding">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 order-lg-1 order-md-2">
-                        <div class="blog-sidebar">
-                            <div class="widget search-widget">
-                                <form>
-                                    <div>
-                                        <input type="text" class="form-control" placeholder="Search Post..">
-                                        <button type="submit"><i class="ti-search"></i></button>
+                <div class="wpo-contact-section-wrapper">
+                    <div class="row align-items-center justify-content-center">
+                        <div class="col-lg-8 col-md-12 col-12">
+                            <div class="wpo-contact-form-area">
+                                <div class="wpo-section-title-s2">
+                                    <span>ONLINE BOOKING</span>
+                                    <h2>Online Booking For Appointments.</h2>
+                                </div>
+                                <form method="post" class="contact-validation-active" >
+                                    <div class="row">
+                                        <div class="col col-lg-6 col-md-6 col-12">
+                                            <div class="form-group">
+                                                <label for="name">Full name here*</label>
+                                                <input type="text" class="form-control" name="name" id="name"
+                                                    placeholder="Ross Ward">
+                                            </div>
+                                        </div>
+                                        <div class="col col-lg-6 col-md-6 col-12">
+                                            <div class="form-group">
+                                                <label for="email">Email here*</label>
+                                                <input type="email" class="form-control" name="email" id="email"
+                                                    placeholder="rossward@gmail.com">
+                                            </div>
+                                        </div>
+                                        <div class="col col-lg-6 col-md-6 col-12">
+                                            <div class="form-group">
+                                                <label for="phone">Contact number*</label>
+                                                <input type="text" class="form-control" name="phone" id="phone"
+                                                    placeholder="+88 *** *** ***">
+                                            </div>
+                                        </div>
+                                        <div class="col col-lg-6 col-md-6 col-12">
+                                            <div class="form-group">
+                                                <label>Select service*</label>
+                                                <select name="subject" class="form-control">
+                                                    <option disabled="disabled" selected>Subject</option>
+                                                 <option value="Building Construction">Building Construction</option>
+                            <option value="House Roomodel">House Roomodel</option>
+                            <option value="Interior Design">Interior Design</option>
+                            <option value="Renovation">Renovation</option>
+                            <option value="OutField Digging">OutField Digging</option>
+                            <option value="Road Construction">Road Construction</option>
+    <option value="Floors & Roofs">Floors & Roofs</option>
+                            <option value="Plumbing">Plumbing</option>
+                            <option value="Electricity">Electricity</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col fullwidth col-lg-12 ">
+                                            <div class="form-group">
+                                                <label for="note">Short text*</label>
+                                                <textarea class="form-control" name="message" id="message"
+                                                    placeholder="Type your message"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="submit-area">
+                                        <button type="submit" class="theme-btn">GET AN APPOINMENT</button>
+                                        <div id="loader">
+                                            <i class="ti-reload"></i>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix error-handling-messages">
+                                        <div id="success">Thank you</div>
+                                        <div id="error"> Error occurred while sending email. Please try again later.
+                                        </div>
                                     </div>
                                 </form>
-                            </div>
-                            <div class="widget category-widget">
-                                <h3>Services</h3>
-                               <ul>
-                                    <li><a href="service-single.html">Building Construction</a></li>
-                                    <li><a href="service-single.html">House Construction</a></li>
-                                    <li><a href="service-single.html">Interior Desing</a></li>
-                                    <li><a href="service-single.html">Floor and Roofs</a></li>
-                                    <li><a href="service-single.html">Electricity</a></li>
- <li><a href="service-single.html">Plumbing Construction</a></li>
-                                    <li><a href="service-single.html">Road Construction</a></li>
-                                    <li><a href="service-single.html">OutFiled Digging</a></li>
- <li><a href="service-single.html">Renovation</a></li>
-                                </ul>
-                            </div>
-                            <div class="wpo-contact-widget widget">
-                                <h2>How We Can <br> Help You!</h2>
-                                <p>labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                                <a href="contact.html">Contact Us</a>
-                           </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-8 order-lg-2 order-md-1">
-                        <div class="wpo-minimals-wrap">
-                            <div class="minimals-img">
-                                <img src="assets/images/service-single/1.jpg" alt="">
+                                <div class="border-style"></div>
                             </div>
                         </div>
-                        <div class="wpo-p-details-section">
-                            <h4>Home Construction</h4>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. </p>
-                            <p>It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour,sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined.</p>
-                            <div class="row">
-                                <div class="col-md-6 col-sm-6 col-12">
-                                    <div class="wpo-p-details-img">
-                                        <img src="assets/images/service-single/2.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-sm-6 col-12">
-                                    <div class="wpo-p-details-img">
-                                        <img src="assets/images/service-single/3.jpg" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. </p>
-                            <p>It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour,sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined.</p>
-                        </div>
-                        <div class="wpo-faq-section">
-                            <h4>Frequently Ask Questions</h4>
-                            <div class="row">
-                                <div class="col-lg-12 col-md-12 col-12">
-                                    <div class="accordion" id="accordionExample">
-                                        <div class="accordion-item">
-                                          <h3 class="accordion-header" id="headingOne">
-                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                Modern Equipment We Use and support from our experts.
-                                            </button>
-                                          </h3>
-                                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum exercitationem pariatur iure nemo esse repellendus est quo recusandae. Delectus, maxime.</p>
-                                            </div>
-                                          </div>
-                                        </div>
-                                        <div class="accordion-item">
-                                          <h3 class="accordion-header" id="headingTwo">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                              Planning can help alleviate workplace stress and increase productivity.
-                                            </button>
-                                          </h3>
-                                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum exercitationem pariatur iure nemo esse repellendus est quo recusandae. Delectus, maxime.</p>
-                                            </div>
-                                          </div>
-                                        </div>
-                                        <div class="accordion-item">
-                                          <h3 class="accordion-header" id="headingThree">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                              Those who experiment the most, are able to innovate the best.
-                                            </button>
-                                          </h3>
-                                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum exercitationem pariatur iure nemo esse repellendus est quo recusandae. Delectus, maxime.</p>
-                                            </div>
-                                          </div>
-                                        </div>
-                                        <div class="accordion-item">
-                                          <h3 class="accordion-header" id="headingFour">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                                Understand Your Problem, You must understand the issue.
-                                            </button>
-                                          </h3>
-                                          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum exercitationem pariatur iure nemo esse repellendus est quo recusandae. Delectus, maxime.</p>
-                                            </div>
-                                          </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <!-- end wpo-faq-section -->
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- .wpo-project-details-area end -->
-
-         <!-- start of wpo-site-footer-section -->
+        </section>
+        <!-- end of wpo-contact-section -->
+        <!-- start of wpo-site-footer-section -->
         <footer class="wpo-site-footer">
             <div class="wpo-upper-footer">
                 <div class="container">
@@ -398,12 +353,12 @@
                                 <div class="widget-title">
                                     <h3>Services </h3>
                                 </div>
-                               <ul>
-                                    <li><a href="service-single.html">Building Construction</a></li>
-                                    <li><a href="service-single.html">House Construction</a></li>
-                                    <li><a href="service-single.html">Interior Desing</a></li>
-                                    <li><a href="service-single.html">Road Construction</a></li>
-                                    <li><a href="service-single.html">OutFiled Digging</a></li>
+                                <ul>
+                                    <li><a href="service-single.php">Building Construction</a></li>
+                                    <li><a href="service-single.php">House Construction</a></li>
+                                    <li><a href="service-single.php">Interior Desing</a></li>
+                                    <li><a href="service-single.php">Road Construction</a></li>
+                                    <li><a href="service-single.php">OutFiled Digging</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -414,12 +369,12 @@
                                     <h3>Projects</h3>
                                 </div>
                                 <ul class="d-flex">
-                                    <li><a href="project-single.html"><img src="assets/images/instragram/1.jpg" alt=""></a></li>
-                                    <li><a href="project-single.html"><img src="assets/images/instragram/2.jpg" alt=""></a></li>
-                                    <li><a href="project-single.html"><img src="assets/images/instragram/3.jpg" alt=""></a></li>
-                                    <li><a href="project-single.html"><img src="assets/images/instragram/4.jpg" alt=""></a></li>
-                                    <li><a href="project-single.html"><img src="assets/images/instragram/5.jpg" alt=""></a></li>
-                                    <li><a href="project-single.html"><img src="assets/images/instragram/6.jpg" alt=""></a></li>
+                                    <li><a href="project-single.php"><img src="assets/images/instragram/1.jpg" alt=""></a></li>
+                                    <li><a href="project-single.php"><img src="assets/images/instragram/2.jpg" alt=""></a></li>
+                                    <li><a href="project-single.php"><img src="assets/images/instragram/3.jpg" alt=""></a></li>
+                                    <li><a href="project-single.php"><img src="assets/images/instragram/4.jpg" alt=""></a></li>
+                                    <li><a href="project-single.php"><img src="assets/images/instragram/5.jpg" alt=""></a></li>
+                                    <li><a href="project-single.php"><img src="assets/images/instragram/6.jpg" alt=""></a></li>
                                 </ul>
                             </div>
                         </div>
