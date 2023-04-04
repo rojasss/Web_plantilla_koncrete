@@ -6,9 +6,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-   <meta name="author" content="">
+    <meta name="author" content="">
     <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
-  <title>koncrete | Construction & Building Template</title>
+     <title>koncrete | Construction & Building Template</title>
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
     <link href="assets/css/themify-icons.css" rel="stylesheet">
     <link href="assets/css/flaticon.css" rel="stylesheet">
@@ -127,11 +127,11 @@
                                                 <li><a href="index-3.php">Home style 3</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="about.php">About</a></li>
+                                        <li><a class="active" href="about.php">About</a></li>
                                         <li class="menu-item-has-children">
-                                            <a class="active" href="#">Services</a>
+                                            <a href="#">Services</a>
                                             <ul class="sub-menu">
-                                                <li><a class="active" href="service.php">Service</a></li>
+                                                <li><a href="service.php">Service</a></li>
                                                 <li><a href="service-s2.php">Service style 2</a></li>
                                                 <li><a href="service-single.php">Service Single</a></li>
                                             </ul>
@@ -207,10 +207,10 @@
                 <div class="row">
                     <div class="col col-xs-12">
                         <div class="wpo-breadcumb-wrap">
-                            <h2>Service</h2>
+                            <h2>About</h2>
                             <ol class="wpo-breadcumb-wrap">
                                 <li><a href="index.php">Home</a></li>
-                                <li>Service</li>
+                                <li>About</li>
                             </ol>
                         </div>
                     </div>
@@ -218,8 +218,43 @@
             </div> <!-- end container -->
         </section>
         <!-- end page-title -->
-
-           <!-- start wpo-service-section -->
+        <!-- start of wpo-about-section -->
+        <section class="wpo-about-section section-padding">
+            <div class="container">
+                <div class="wpo-about-section-wrapper">
+                    <div class="row align-items-center">
+                        <div class="col-lg-5 col-md-12 col-12">
+                            <div class="wpo-about-img">
+                                <img src="assets/images/about.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-7 col-md-12 col-12">
+                            <div class="wpo-about-content">
+                                <div class="wpo-section-title-s2">
+                                    <h2>Over 25+ Years Experience
+                                        In Construction Service</h2>
+                                </div>
+                                <div class="wpo-about-content-inner">
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable and going through the cites of the word in classical literature, discovered the
+                                        undoubtable source. Lorem Ipsum comes from sections.</p>
+                                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
+                                        in a piece of classical Latin literature from 45 BC, making it over 2000 years
+                                        old consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                        ut labore et dolore magna aliqua.</p>
+                                    <div class="signeture">
+                                        <h4>Brubaker Nilka</h4>
+                                        <p>Vertex Chambers, CEO</p>
+                                        <span><img src="assets/images/signeture.png" alt=""></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of wpo-about-section -->
+            <!-- start wpo-service-section -->
          <section class="wpo-service-section section-padding">
             <div class="container">
                 <div class="row align-items-center justify-content-center">
@@ -351,7 +386,296 @@
             </div>
         </section>
         <!-- end of wpo-service-section -->
+        <!-- start wpo-fun-fact-section -->
+        <section class="wpo-fun-fact-section section-padding">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5">
+                        <div class="wpo-funfacts-text">
+                            <h3>We Are Provide Always Different From Other Services.</h3>
+                            <div class="customer-review">
+                                <h2>89K</h2>
+                                <div class="reviews">
+                                    <ul>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                    </ul>
+                                    <span>Customer Review</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-lg-6 offset-lg-1">
+                        <div class="wpo-fun-fact-grids clearfix">
+                            <div class="grid">
+                                <div class="icon">
+                                    <img src="assets/images/icon/9.png" alt="">
+                                </div>
+                                <div class="info">
+                                    <h3><span class="odometer" data-count="200">00</span></h3>
+                                    <p>Running Project</p>
+                                </div>
+                            </div>
+                            <div class="grid">
+                                <div class="icon">
+                                    <img src="assets/images/icon/10.png" alt="">
+                                </div>
+                                <div class="info">
+                                    <h3><span class="odometer" data-count="85">00</span>+</h3>
+                                    <p>Team Member</p>
+                                </div>
+                            </div>
+                            <div class="grid">
+                                <div class="icon">
+                                    <img src="assets/images/icon/11.png" alt="">
+                                </div>
+                                <div class="info">
+                                    <h3><span class="odometer" data-count="39">00</span>K</h3>
+                                    <p>Happy Clients</p>
+                                </div>
+                            </div>
+                            <div class="grid">
+                                <div class="icon">
+                                    <img src="assets/images/icon/12.png" alt="">
+                                </div>
+                                <div class="info">
+                                    <h3><span class="odometer" data-count="45">00</span></h3>
+                                    <p>Awards Winning</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- end container -->
+        </section>
+        <!-- end wpo-fun-fact-section -->
+        <!-- start wpo-Team-section -->
+        <section class="wpo-team-section section-padding">
+            <div class="container">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="wpo-section-title">
+                            <h2>Dedicated Member</h2>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. has been
+                                the industry's standard dummy text ever since the 1500s.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="wpo-team-wrap">
+                    <div class="row">
+                        <div class="col col-lg-3 col-md-6 col-12">
+                            <div class="wpo-team-item">
+                                <div class="wpo-team-img">
+                                    <img src="assets/images/team/1.jpg" alt="">
+                                    <div class="social">
+                                        <ul>
+                                            <li><a href="#"><i class="ti-pinterest"></i></a></li>
+                                            <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
+                                            <li><a href="#"><i class="ti-skype"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="wpo-team-text">
+                                    <h2><a href="team.php">Henry Barton</a></h2>
+                                    <span>Team Leader</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-lg-3 col-md-6 col-12">
+                            <div class="wpo-team-item">
+                                <div class="wpo-team-img">
+                                    <img src="assets/images/team/2.jpg" alt="">
+                                    <div class="social">
+                                        <ul>
+                                            <li><a href="#"><i class="ti-pinterest"></i></a></li>
+                                            <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
+                                            <li><a href="#"><i class="ti-skype"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="wpo-team-text">
+                                    <h2><a href="team.php">Mattie Washington</a></h2>
+                                    <span>Junior Member</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-lg-3 col-md-6 col-12">
+                            <div class="wpo-team-item">
+                                <div class="wpo-team-img">
+                                    <img src="assets/images/team/3.jpg" alt="">
+                                    <div class="social">
+                                        <ul>
+                                            <li><a href="#"><i class="ti-pinterest"></i></a></li>
+                                            <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
+                                            <li><a href="#"><i class="ti-skype"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="wpo-team-text">
+                                    <h2><a href="team.php">Winifred Harmon</a></h2>
+                                    <span>Team Leader</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-lg-3 col-md-6 col-12">
+                            <div class="wpo-team-item">
+                                <div class="wpo-team-img">
+                                    <img src="assets/images/team/4.jpg" alt="">
+                                    <div class="social">
+                                        <ul>
+                                            <li><a href="#"><i class="ti-pinterest"></i></a></li>
+                                            <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
+                                            <li><a href="#"><i class="ti-skype"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="wpo-team-text">
+                                    <h2><a href="team.php">Shelia Lawrence</a></h2>
+                                    <span>Senior Member</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- end container -->
+        </section>
+        <!-- end Team-section -->
 
+        <!--Start wpo-testimonials-section-->
+        <section class="wpo-testimonials-section section-padding">
+            <div class="container">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="wpo-section-title">
+                            <h2>What People’s Say</h2>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. has been
+                                the industry's standard dummy text ever since the 1500s.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-xl-12 col-lg-12">
+                        <div class="testimonials-wrapper owl-carousel">
+                              <div class="testimonials-item">
+                                <div class="testimonials-item-top">
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,typesetting industry. has been the industry's standard dummy text ever since.</p>
+                                </div>
+                                <div class="testimonials-item-bottom">
+                                    <div class="testimonials-item-bottom-author">
+                                        <img src="assets/images/testimonial/img-1.jpg" alt="">
+                                    </div>
+                                    <div class="testimonials-item-bottom-author-text">
+                                        <h3>Henry Barton</h3>
+                                        <span>Business Man</span>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="testimonials-item">
+                                <div class="testimonials-item-top">
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,typesetting industry. has been the industry's standard dummy text ever since.</p>
+                                </div>
+                                <div class="testimonials-item-bottom">
+                                    <div class="testimonials-item-bottom-author">
+                                        <img src="assets/images/testimonial/img-2.jpg" alt="">
+                                    </div>
+                                    <div class="testimonials-item-bottom-author-text">
+                                        <h3>Simon Mendoza</h3>
+                                        <span>Web Developer</span>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="testimonials-item">
+                                <div class="testimonials-item-top">
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,typesetting industry. has been the industry's standard dummy text ever since.</p>
+                                </div>
+                                <div class="testimonials-item-bottom">
+                                    <div class="testimonials-item-bottom-author">
+                                        <img src="assets/images/testimonial/img-3.jpg" alt="">
+                                    </div>
+                                    <div class="testimonials-item-bottom-author-text">
+                                        <h3>Muriel Garrett</h3>
+                                        <span>Business Man</span>
+                                    </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+
+                </div> <!-- end row -->
+            </div>
+        </section>
+        <!--End wpo-testimonials-section-->
+
+        <!-- start wpo-blog-section -->
+        <section class="wpo-blog-section section-padding">
+            <div class="container">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="wpo-section-title">
+                            <h2>Latest News & Blog</h2>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. has been
+                                the industry's standard dummy text ever since the 1500s.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="wpo-blog-items">
+                    <div class="row">
+                        <div class="col col-lg-4 col-md-6 col-12">
+                            <div class="wpo-blog-item">
+                                <div class="wpo-blog-img">
+                                    <img src="assets/images/blog/img-1.jpg" alt="">
+                                </div>
+                                <div class="wpo-blog-content">
+                                    <a class="date" href="blog-single.php">22 September, 2020</a>
+                                    <h2><a href="blog-single.php">Making this the first true ones the uses a dictionary.</a></h2>
+                                    <ul>
+                                        <li>Mabel Fox</li>
+                                        <li><a href="blog-single.php">26 Comments</a></li>
+                                        <li>35 Share</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-lg-4 col-md-6 col-12">
+                            <div class="wpo-blog-item">
+                                <div class="wpo-blog-img">
+                                    <img src="assets/images/blog/img-2.jpg" alt="">
+                                </div>
+                                <div class="wpo-blog-content">
+                                    <a class="date" href="blog-single.php">22 September, 2020</a>
+                                    <h2><a href="blog-single.php">A Behind the scenes look of your plumbing company</a></h2>
+                                    <ul>
+                                        <li>Mabel Fox</li>
+                                        <li><a href="blog-single.php">26 Comments</a></li>
+                                        <li>35 Share</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-lg-4 col-md-6 col-12">
+                            <div class="wpo-blog-item">
+                                <div class="wpo-blog-img">
+                                    <img src="assets/images/blog/img-3.jpg" alt="">
+                                </div>
+                                <div class="wpo-blog-content">
+                                    <a class="date" href="blog-single.php">22 September, 2020</a>
+                                    <h2><a href="blog-single.php">Now grab your tool belt and get to work!</a></h2>
+                                    <ul>
+                                        <li>Mabel Fox</li>
+                                        <li><a href="blog-single.php">26 Comments</a></li>
+                                        <li>35 Share</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- end container -->
+        </section>
+        <!-- end wpo-blog-section -->
          <!-- start of wpo-site-footer-section -->
         <footer class="wpo-site-footer">
             <div class="wpo-upper-footer">
@@ -397,7 +721,7 @@
                                     <ul>
                                         <li><i class="fi flaticon-location"></i>7 Green Lake Street Crawfordsville, IN 47933</li>
                                         <li><i class="fi flaticon-phone-call"></i>+1 800 123 456 789</li>
-                                    <li><i class="fi flaticon-send"></i>info@example.com</li>
+                                        <li><i class="fi flaticon-send"></i>info@example.com</li>
                                     </ul>
                                 </div>
                             </div>
@@ -407,7 +731,7 @@
                                 <div class="widget-title">
                                     <h3>Services </h3>
                                 </div>
-                              <ul>
+                                <ul>
                                     <li><a href="service-single.php">Building Construction</a></li>
                                     <li><a href="service-single.php">House Construction</a></li>
                                     <li><a href="service-single.php">Interior Desing</a></li>

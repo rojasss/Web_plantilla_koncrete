@@ -1,3 +1,4 @@
+<?php include "config.php"; ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -50,39 +51,34 @@
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                         <?php
-                             $res = mysqli_query($conn, "SELECT * FROM `nosotros_index` WHERE `estado` = 1 ;");
-                             if (mysqli_num_rows($res) > 0) {
+                              $res = mysqli_query($conn, "SELECT * FROM `slyder` WHERE `estado` = 1 ;");
+                               if (mysqli_num_rows($res) > 0) {
                                  while ($fs = mysqli_fetch_array($res)) {
                          ?>
                     <div class="swiper-slide">
-                   
-                        <div class="slide-inner slide-bg-image" data-background="<?php echo $fs['imagen']; ?>">
-                        
+                        <div class="slide-inner slide-bg-image" data-background="assets/images/slider/<?php echo $fs['imagen']; ?>">
                             <div class="gradient-overlay"></div>
-                           
                             <div class="container">
                                 <div class="slide-content">
                                     <div data-swiper-parallax="300" class="slide-title">
                                         <h2><?php echo $fs['titulo']; ?></h2>
                                     </div>
                                     <div data-swiper-parallax="400" class="slide-text">
-                                        <p><?php echo $fs['descripcion']; ?></p>
+                                        <p><?php echo $fs['nombre']; ?></p>
                                     </div>
                                     <div class="clearfix"></div>
-                                    <div data-swiper-parallax="500" class="slide-btns">
+
+                                    <!--<div data-swiper-parallax="500" class="slide-btns">
                                         <a href="appointment.php" class="btn theme-btn">BOOK ONLINE</a>
-                                    </div>
+                                    </div>-->
                                 </div>
                             </div>
-                           
                         </div> <!-- end slide-inner -->
-                        
                     </div> <!-- end swiper-slide -->
-                             <?php
-                                         }
-                                     }
-                            ?>
-
+                    <?php
+                           }
+                      }
+                       ?>                  
                     <div class="swiper-slide">
                         <div class="slide-inner slide-bg-image" data-background="assets/images/slider/slide-3.jpg">
                             <div class="gradient-overlay"></div>
@@ -154,166 +150,45 @@
             </div>
         </section>
         <!-- end of wpo-features-section -->
-          <!-- start wpo-service-section -->
-          <section class="wpo-service-section section-padding">
-            <div class="container">
-                <div class="row align-items-center justify-content-center">
-                    <div class="col-lg-5">
-                        <div class="wpo-section-title">
-                            <h2>We offer all kinds of professional modern Construction services</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. has been
-                                the industry's standard dummy text ever since the 1500s.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 col-12">
-                         <div class="wpo-service-item">
-                             <div class="wpo-service-img">
-                                 <img src="assets/images/service/1.jpg" alt="">
-                             </div>
-                             <div class="wpo-service-text">
-                                  <h2><a href="service-single.php">Building Construction</a></h2>
-                                  <p>Electronic typesetting rema essentially unchanged was popularised.</p>
-                                  <a href="service-single.php">READ MORE <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
-                             </div>
-                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-12">
-                         <div class="wpo-service-item">
-                             <div class="wpo-service-img">
-                                 <img src="assets/images/service/2.jpg" alt="">
-                             </div>
-                             <div class="wpo-service-text">
-                                  <h2><a href="service-single.php">House Construction</a></h2>
-                                  <p>Electronic typesetting rema essentially unchanged was popularised.</p>
-                                  <a href="service-single.php">READ MORE <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
-                             </div>
-                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-12">
-                         <div class="wpo-service-item">
-                             <div class="wpo-service-img">
-                                 <img src="assets/images/service/3.jpg" alt="">
-                             </div>
-                             <div class="wpo-service-text">
-                                  <h2><a href="service-single.php">Interior Design</a></h2>
-                                  <p>Electronic typesetting rema essentially unchanged was popularised.</p>
-                                  <a href="service-single.php">READ MORE <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
-                             </div>
-                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-12">
-                         <div class="wpo-service-item">
-                             <div class="wpo-service-img">
-                                 <img src="assets/images/service/4.jpg" alt="">
-                             </div>
-                             <div class="wpo-service-text">
-                                  <h2><a href="service-single.php">Floor and Roofs</a></h2>
-                                  <p>Electronic typesetting rema essentially unchanged was popularised.</p>
-                                  <a href="service-single.php">READ MORE <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
-                             </div>
-                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-12">
-                         <div class="wpo-service-item">
-                             <div class="wpo-service-img">
-                                 <img src="assets/images/service/5.jpg" alt="">
-                             </div>
-                             <div class="wpo-service-text">
-                                  <h2><a href="service-single.php">Electricity </a></h2>
-                                  <p>Electronic typesetting rema essentially unchanged was popularised.</p>
-                                  <a href="service-single.php">READ MORE <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
-                             </div>
-                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-12">
-                         <div class="wpo-service-item">
-                             <div class="wpo-service-img">
-                                 <img src="assets/images/service/6.jpg" alt="">
-                             </div>
-                             <div class="wpo-service-text">
-                                  <h2><a href="service-single.php">Plumbing Construction</a></h2>
-                                  <p>Electronic typesetting rema essentially unchanged was popularised.</p>
-                                  <a href="service-single.php">READ MORE <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
-                             </div>
-                         </div>
-                    </div>
-  <div class="col-lg-4 col-md-6 col-12">
-                         <div class="wpo-service-item">
-                             <div class="wpo-service-img">
-                                 <img src="assets/images/service/7.jpg" alt="">
-                             </div>
-                             <div class="wpo-service-text">
-                                  <h2><a href="service-single.php">Road Construction</a></h2>
-                                  <p>Electronic typesetting rema essentially unchanged was popularised.</p>
-                                  <a href="service-single.php">READ MORE <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
-                             </div>
-                         </div>
-                    </div>
 
-
-     <div class="col-lg-4 col-md-6 col-12">
-                         <div class="wpo-service-item">
-                             <div class="wpo-service-img">
-                                 <img src="assets/images/service/8.jpg" alt="">
-                             </div>
-                             <div class="wpo-service-text">
-                                  <h2><a href="service-single.php">Renovation</a></h2>
-                                  <p>Electronic typesetting rema essentially unchanged was popularised.</p>
-                                  <a href="service-single.php">READ MORE <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
-                             </div>
-                         </div>
-                    </div>
-  <div class="col-lg-4 col-md-6 col-12">
-                         <div class="wpo-service-item">
-                             <div class="wpo-service-img">
-                                 <img src="assets/images/service/9.jpg" alt="">
-                             </div>
-                             <div class="wpo-service-text">
-                                  <h2><a href="service-single.php">OutFiled Digging</a></h2>
-                                  <p>Electronic typesetting rema essentially unchanged was popularised.</p>
-                                  <a href="service-single.php">READ MORE <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
-                             </div>
-                         </div>
-                    </div>
-
-
-
-
-
-                </div>
-            </div>
-        </section>
-        <!-- end of wpo-service-section -->
         <!-- start wpo-service-section -->
         <section class="wpo-service-section-s2 section-padding">
             <div class="container">
                 <div class="row align-items-center justify-content-center">
+                    
                     <div class="col-lg-5">
                         <div class="wpo-section-title">
-                            <h2>Best Service We Offer</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. has been
-                                the industry's standard dummy text ever since the 1500s.</p>
+                            <h2>banner</h2>
                         </div>
                     </div>
                 </div>
                 <div class="row">
+                         <?php
+                           $res = mysqli_query($conn, "SELECT * FROM `banner` WHERE `estado` = 1 ;");
+                                     if (mysqli_num_rows($res) > 0) {
+                               while ($fs = mysqli_fetch_array($res)) {
+                       ?>
                     <div class="col-lg-4 col-md-6 col-12">
-                         <div class="wpo-service-item">
+                   
+                        <div class="wpo-service-item">
                              <div class="wpo-service-img">
-                                 <img src="assets/images/icon/kitchen-utensils.png" alt="">
+                                 <img src="assets/images/icon/<?php echo $fs['imagen']; ?>" alt="">
                              </div>
                              <div class="wpo-service-text">
-                                  <h2><a href="service-single.php">Kitchen Construction</a></h2>
-                                  <p>Electronic typesetting rema essentially unchanged was popularised.</p>
+                                  <h2><a href="<?php echo $fs['url']; ?>"><?php echo $fs['nombre']; ?></a></h2>
+                                 
                              </div>
                              <div class="visible-icon">
                                 <img src="assets/images/icon/kitchen-utensils.png" alt="">
                              </div>
                          </div>
+                        
                     </div>
-                    <div class="col-lg-4 col-md-6 col-12">
+                        <?php
+                                 }
+                            }
+                             ?>
+                  <!--  <div class="col-lg-4 col-md-6 col-12">
                          <div class="wpo-service-item">
                              <div class="wpo-service-img">
                                 <img src="assets/images/icon/gas-stove.png" alt="">
@@ -383,6 +258,7 @@
                              </div>
                          </div>
                     </div>
+                        -->
                 </div>
             </div>
         </section>
@@ -441,9 +317,8 @@
                 <div class="row align-items-center justify-content-center">
                     <div class="col-lg-6">
                         <div class="wpo-section-title">
-                            <h2>Our Latest Project</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. has been
-                                the industry's standard dummy text ever since the 1500s.</p>
+                            <h2>proyectos</h2></h2>
+                            
                         </div>
                     </div>
                 </div>
@@ -452,27 +327,35 @@
                         <div class="gallery-filters projects-menu">
                             <ul>
                                 <li><a data-filter="*" href="#" class="current">All Project</a></li>
-                                <li><a data-filter=".Residential" href="#">Residential</a></li>
-                                <li><a data-filter=".Commercial" href="#">Commercial</a></li>
-                                <li><a data-filter=".Factory" href="#">Factory</a></li>
-                                <li><a data-filter=".Roof Replacement" href="#">Roof Replacement</a></li>
+
                             </ul>
                         </div>
                         <div class="projects-grids gallery-container clearfix">
+                            <?php
+                                  $res = mysqli_query($conn, "SELECT * FROM `proyectos` WHERE `estado` = 1 ;");
+                                            if (mysqli_num_rows($res) > 0) {
+                                      while ($fs = mysqli_fetch_array($res)) {
+                            ?>
                             <div class="grid  Residential Factory">
+                            
                                 <div class="project-inner">
                                     <div class="img-holder">
-                                        <img src="assets/images/projects/img-1.jpg" alt>
+                                        <img src="assets/images/projects/<?php echo $fs['imagen']; ?>" alt>
                                     </div>
                                     <div class="hover-content">
                                         <div class="details">
-                                            <h3><a href="project-single.php">Commercial Construction Construction</a></h3>
-                                            <p class="cat">Construction</p>
+                                            <h3><a href="project-single.php"><?php echo $fs['nombre']; ?></a></h3>
+                                            <p class="cat"><?php echo $fs['resumen']; ?></p>
                                         </div>
                                     </div>
                                 </div>
+                               
                             </div>
-                            <div class="grid Commercial">
+                            <?php
+                                                  }
+                                             }
+                                              ?>
+                          <!--  <div class="grid Commercial">
                                 <div class="project-inner">
                                     <div class="img-holder">
                                         <img src="assets/images/projects/img-6.jpg" alt>
@@ -576,6 +459,7 @@
                                     </div>
                                 </div>
                             </div>
+                                            -->
                         </div>
                     </div>
                 </div>
@@ -588,36 +472,29 @@
                 <div class="row align-items-center justify-content-center">
                     <div class="col-lg-6">
                         <div class="wpo-section-title">
-                            <h2>Dedicated Member</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. has been
-                                the industry's standard dummy text ever since the 1500s.</p>
+                            <h2>equipo</h2>
+
                         </div>
                     </div>
                 </div>
                 <div class="wpo-team-wrap">
                     <div class="row">
-                        <div class="col col-lg-3 col-md-6 col-12">
+                       <div class="col col-lg-3 col-md-6 col-12"> 
                             <div class="wpo-team-item">
-                                <div class="wpo-team-img">
-                                    <img src="assets/images/team/1.jpg" alt="">
-                                    <div class="social">
-                                        <ul>
-                                            <li><a href="#"><i class="ti-pinterest"></i></a></li>
-                                            <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
-                                            <li><a href="#"><i class="ti-skype"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="wpo-team-text">
-                                    <h2><a href="team.php">Henry Barton</a></h2>
-                                    <span>Team Leader</span>
-                                </div>
+                                
+                               
                             </div>
                         </div>
+                        
                         <div class="col col-lg-3 col-md-6 col-12">
+                        <?php
+                                              $res = mysqli_query($conn, "SELECT * FROM `equipo` WHERE `estado` = 1 ;");
+                                                        if (mysqli_num_rows($res) > 0) {
+                                                  while ($fs = mysqli_fetch_array($res)) {
+                                          ?>
                             <div class="wpo-team-item">
                                 <div class="wpo-team-img">
-                                    <img src="assets/images/team/2.jpg" alt="">
+                                    <img src="assets/images/team/<?php echo $fs['imagen']; ?>" alt="">
                                     <div class="social">
                                         <ul>
                                             <li><a href="#"><i class="ti-pinterest"></i></a></li>
@@ -627,45 +504,28 @@
                                     </div>
                                 </div>
                                 <div class="wpo-team-text">
-                                    <h2><a href="team.php">Mattie Washington</a></h2>
-                                    <span>Junior Member</span>
+                                    <h2><a href="team.php"><?php echo $fs['resumen']; ?></a></h2>
+                                    <span><?php echo $fs['titulo']; ?></span>
+                                    <ul>
+                                            <li><p>telefono :<?php echo $fs['telefono']; ?></p></li>
+                                            <li><p>Correo : <?php echo $fs['correo']; ?></p></li>
+                                            <li><p>ciudad : <?php echo $fs['ciudad']; ?></p></li>
+                                     </ul>
                                 </div>
                             </div>
+                            <?php
+                                   }
+                              }
+                               ?>
                         </div>
-                        <div class="col col-lg-3 col-md-6 col-12">
+                       <div class="col col-lg-3 col-md-6 col-12">
                             <div class="wpo-team-item">
-                                <div class="wpo-team-img">
-                                    <img src="assets/images/team/3.jpg" alt="">
-                                    <div class="social">
-                                        <ul>
-                                            <li><a href="#"><i class="ti-pinterest"></i></a></li>
-                                            <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
-                                            <li><a href="#"><i class="ti-skype"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="wpo-team-text">
-                                    <h2><a href="team.php">Winifred Harmon</a></h2>
-                                    <span>Team Leader</span>
-                                </div>
+                                
                             </div>
                         </div>
-                        <div class="col col-lg-3 col-md-6 col-12">
+                        <div class="col col-lg-3 col-md-6 col-12"> 
                             <div class="wpo-team-item">
-                                <div class="wpo-team-img">
-                                    <img src="assets/images/team/4.jpg" alt="">
-                                    <div class="social">
-                                        <ul>
-                                            <li><a href="#"><i class="ti-pinterest"></i></a></li>
-                                            <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
-                                            <li><a href="#"><i class="ti-skype"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="wpo-team-text">
-                                    <h2><a href="team.php">Shelia Lawrence</a></h2>
-                                    <span>Senior Member</span>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -682,7 +542,7 @@
                 </a>
             </div>
             <div class="wpo-contact-img-s2">
-                <img src="assets/images/contact.png" alt="">
+                <img src="assets/images/2.jpg" alt="">
             </div>
             <div class="container">
                 <div class="wpo-contact-section-wrapper">
@@ -690,66 +550,78 @@
                         <div class="col-lg-6 col-md-12 col-12">
                             <div class="wpo-contact-form-area">
                                 <div class="wpo-section-title-s2">
-                                    <span>ONLINE BOOKING</span>
-                                    <h2>Online Booking For Appointments.</h2>
+                                    <span>reservas</span>
+                                    <h2>tus datos</h2>
                                 </div>
                                 <form method="post" class="contact-validation-active" id="contact-form">
                                     <div class="row">
                                         <div class="col col-lg-6 col-md-6 col-12">
                                             <div class="form-group">
-                                                <label for="name">Full name here*</label>
+                                                <label for="name">nombre completo*</label>
                                                 <input type="text" class="form-control" name="name" id="name"
-                                                    placeholder="Ross Ward">
+                                                    placeholder="nombre y apellido">
                                             </div>
                                         </div>
                                         <div class="col col-lg-6 col-md-6 col-12">
                                             <div class="form-group">
-                                                <label for="email">Email here*</label>
+                                                <label for="email">Email aqui*</label>
                                                 <input type="email" class="form-control" name="email" id="email"
-                                                    placeholder="rossward@gmail.com">
+                                                    placeholder="ejemplo@gmail.com">
                                             </div>
                                         </div>
                                         <div class="col col-lg-6 col-md-6 col-12">
                                             <div class="form-group">
-                                                <label for="phone">Contact number*</label>
+                                                <label for="phone">telefono*</label>
                                                 <input type="text" class="form-control" name="phone" id="phone"
-                                                    placeholder="+88 *** *** ***">
+                                                    placeholder="+51 *** *** ***">
                                             </div>
                                         </div>
                                         <div class="col col-lg-6 col-md-6 col-12">
+                                        
                                             <div class="form-group">
-                                                <label>Select service*</label>
+                                                <label>selecionar servicio*</label>
                                                  <select name="subject" class="form-control">
-                                                    <option disabled="disabled" selected>Subject</option>
-                                                    <option value="Building Construction">Building Construction</option>
-                            <option value="House Roomodel">House Roomodel</option>
-                            <option value="Interior Design">Interior Design</option>
-                            <option value="Renovation">Renovation</option>
-                            <option value="OutField Digging">OutField Digging</option>
-                            <option value="Road Construction">Road Construction</option>
-    <option value="Floors & Roofs">Floors & Roofs</option>
-                            <option value="Plumbing">Plumbing</option>
-                            <option value="Electricity">Electricity</option>
+                                                    <option disabled="disabled" selected>Servicio</option>
+                                                   <!-- <option value="Building Construction">Building Construction</option>-->
+                                                    <?php
+                                              $res = mysqli_query($conn, "SELECT * FROM `servicios` WHERE `estado` = 1 ;");
+                                                        if (mysqli_num_rows($res) > 0) {
+                                                  while ($fs = mysqli_fetch_array($res)) {
+                                          ?>
+                                                         <option value="<?php echo $fs['id']; ?>"><?php echo $fs['nombre']; ?></option>
+                                                        <!-- <option value="Interior Design">Interior Design</option>
+                                                         <option value="Renovation">Renovation</option>
+                                                         <option value="OutField Digging">OutField Digging</option>
+                                                         <option value="Road Construction">Road Construction</option>
+                                                         <option value="Floors & Roofs">Floors & Roofs</option>
+                                                         <option value="Plumbing">Plumbing</option>
+                                                         <option value="Electricity">Electricity</option>-->
+                                                         <?php
+                                                  }
+                                             }
+                                              ?>
                                                 </select>
+                                                
                                             </div>
+                                            
                                         </div>
                                         <div class="col fullwidth col-lg-12 ">
                                             <div class="form-group">
-                                                <label for="note">Short text*</label>
+                                                <label for="note">mensaje*</label>
                                                 <textarea class="form-control" name="note" id="note"
-                                                    placeholder="Type your message"></textarea>
+                                                    placeholder="escribe el mensaje aqui"></textarea>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="submit-area">
-                                        <button type="submit" class="theme-btn">GET AN APPOINMENT</button>
+                                        <button type="submit" class="theme-btn">enviar</button>
                                         <div id="loader">
                                             <i class="ti-reload"></i>
                                         </div>
                                     </div>
                                     <div class="clearfix error-handling-messages">
-                                        <div id="success">Thank you</div>
-                                        <div id="error"> Error occurred while sending email. Please try again later.
+                                        <div id="success">gracias!!</div>
+                                        <div id="error"> Error al enviar el correo , por favor intentarlo mas tarde.
                                         </div>
                                     </div>
                                 </form>
@@ -767,15 +639,19 @@
                 <div class="row align-items-center justify-content-center">
                     <div class="col-lg-6">
                         <div class="wpo-section-title">
-                            <h2>What People’s Say</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. has been
-                                the industry's standard dummy text ever since the 1500s.</p>
+                            <h2>testimonios</h2>
+                            
                         </div>
                     </div>
                 </div>
                 <div class="row align-items-center">
                     <div class="col-xl-12 col-lg-12">
                         <div class="testimonials-wrapper owl-carousel">
+                        <?php
+                               $res = mysqli_query($conn, "SELECT * FROM `testimonios` WHERE `estado` = 0 ;");
+                                         if (mysqli_num_rows($res) > 0) {
+                                   while ($fs = mysqli_fetch_array($res)) {
+                           ?>                
                               <div class="testimonials-item">
                                 <div class="testimonials-item-top">
                                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,typesetting industry. has been the industry's standard dummy text ever since.</p>
@@ -785,12 +661,16 @@
                                         <img src="assets/images/testimonial/img-1.jpg" alt="">
                                     </div>
                                     <div class="testimonials-item-bottom-author-text">
-                                        <h3>Henry Barton</h3>
-                                        <span>Business Man</span>
+                                        <h3><?php echo $fs['titulo']; ?></h3>
+                                        <span><?php echo $fs['url']; ?></span>
                                     </div>
                                 </div>
                               </div>
-                              <div class="testimonials-item">
+                              <?php
+                                       }
+                                  }
+                                   ?>       
+                            <!--  <div class="testimonials-item">
                                 <div class="testimonials-item-top">
                                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,typesetting industry. has been the industry's standard dummy text ever since.</p>
                                 </div>
@@ -804,7 +684,7 @@
                                     </div>
                                 </div>
                               </div>
-                              <div class="testimonials-item">
+                             <!--- <div class="testimonials-item">
                                 <div class="testimonials-item-top">
                                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,typesetting industry. has been the industry's standard dummy text ever since.</p>
                                 </div>
@@ -817,7 +697,7 @@
                                         <span>Business Man</span>
                                     </div>
                                 </div>
-                              </div>
+                              </div> -->
                         </div>
                     </div>
 
@@ -831,9 +711,8 @@
                 <div class="row align-items-center justify-content-center">
                     <div class="col-lg-6">
                         <div class="wpo-section-title">
-                            <h2>Latest News & Blog</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. has been
-                                the industry's standard dummy text ever since the 1500s.</p>
+                            <h2>noticias & publicaciones</h2>
+
                         </div>
                     </div>
                 </div>
@@ -841,37 +720,59 @@
                     <div class="row">
                         <div class="col col-lg-4 col-md-6 col-12">
                             <div class="wpo-blog-item">
+                            <?php
+                                  $res = mysqli_query($conn, "SELECT * FROM `noticias` WHERE `estado` = 1 ;");
+                                            if (mysqli_num_rows($res) > 0) {
+                                      while ($fs = mysqli_fetch_array($res)) {
+                              ?>
                                 <div class="wpo-blog-img">
                                     <img src="assets/images/blog/img-1.jpg" alt="">
                                 </div>
                                 <div class="wpo-blog-content">
-                                    <a class="date" href="blog-single.php">22 September, 2020</a>
-                                    <h2><a href="blog-single.php">Making this the first true ones the uses a dictionary.</a></h2>
-                                    <ul>
+                                  < <a class="date" href="<?php echo $fs['url']; ?>"><?php echo $fs['fecha']; ?></a>
+                                    <h2><a href="<?php echo $fs['url']; ?>"><?php echo $fs['nombre']; ?></a></h2>
+                                    <span>noticias</span>
+                                   <!-- <ul>
                                         <li>Mabel Fox</li>
                                         <li><a href="blog-single.php">26 Comments</a></li>
                                         <li>35 Share</li>
-                                    </ul>
+                                    </ul>-->
                                 </div>
+                                <?php
+                                        }
+                                   }
+                                    ?>          
                             </div>
                         </div>
+                        <?php
+                                  $res = mysqli_query($conn, "SELECT * FROM `publicaciones` WHERE `estado` = 1 ;");
+                                            if (mysqli_num_rows($res) > 0) {
+                                      while ($fs = mysqli_fetch_array($res)) {
+                              ?>
                         <div class="col col-lg-4 col-md-6 col-12">
                             <div class="wpo-blog-item">
                                 <div class="wpo-blog-img">
                                     <img src="assets/images/blog/img-2.jpg" alt="">
                                 </div>
                                 <div class="wpo-blog-content">
-                                    <a class="date" href="blog-single.php">22 September, 2020</a>
-                                    <h2><a href="blog-single.php">A Behind the scenes look of your Construction company</a></h2>
-                                    <ul>
+                                    <a class="date" href="<?php echo $fs['url']; ?>"><?php echo $fs['fecha']; ?></a>
+                                    <p><?php echo $fs['subtitulo']; ?></p>
+                                    <h2><a href="<?php echo $fs['url']; ?>"><?php echo $fs['titulo']; ?></a></h2>
+                                    <span>publicaciones</span>
+                                   <!-- <ul>
                                         <li>Mabel Fox</li>
                                         <li><a href="blog-single.php">26 Comments</a></li>
                                         <li>35 Share</li>
-                                    </ul>
+                                    </ul>-->
                                 </div>
                             </div>
+                         
                         </div>
-                        <div class="col col-lg-4 col-md-6 col-12">
+                        <?php
+                                        }
+                                   }
+                                    ?>  
+                       <!-- <div class="col col-lg-4 col-md-6 col-12">
                             <div class="wpo-blog-item">
                                 <div class="wpo-blog-img">
                                     <img src="assets/images/blog/img-3.jpg" alt="">
@@ -886,14 +787,14 @@
                                     </ul>
                                 </div>
                             </div>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
             </div> <!-- end container -->
         </section>
         <!-- end wpo-blog-section -->
-        <!-- start of wpo-site-footer-section -->
-        <?php include"footer.php"; ?>
+   <!-- start of wpo-site-footer-section -->
+   <?php include"footer.php"; ?>
         <!-- end of wpo-site-footer-section -->
     </div>
     <!-- end of page-wrapper -->
