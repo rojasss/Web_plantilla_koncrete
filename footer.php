@@ -4,11 +4,19 @@
                     <div class="row">
                         <div class="col col-lg-3 col-md-6 col-sm-12 col-12">
                             <div class="widget about-widget">
-                               
+                            <?php
+                                 $res = mysqli_query($conn, "SELECT * FROM `nosotros` WHERE `estado` = 1 ;");
+                                           if (mysqli_num_rows($res) > 0) {
+                                     while ($fs = mysqli_fetch_array($res)) {
+                             ?>
                                <div class="widget-title">
-                                    <h3>About Us </h3>
+                                    <h3><?php echo $fs['nombre']; ?></h3>
                                 </div>
-                                <p>With more than 30 years of experience, the Construction services company has become the largest Construction company in the country.</p>
+                                <p><?php echo $fs['resumen']; ?></p>
+                                <?php
+                                      }
+                                 }
+                                  ?>
                                 <ul>
                                     <li>
                                         <a href="#">
@@ -50,15 +58,24 @@
                         <div class="col col-lg-3 col-md-6 col-sm-12 col-12">
                             <div class="widget link-widget">
                                 <div class="widget-title">
-                                    <h3>Services </h3>
+                                    <h3>Servicios </h3>
                                 </div>
+                                <?php
+                                 $res = mysqli_query($conn, "SELECT * FROM `servicios` WHERE `estado` = 1 ;");
+                                           if (mysqli_num_rows($res) > 0) {
+                                     while ($fs = mysqli_fetch_array($res)) {
+                                ?>
                               <ul>
-                                    <li><a href="service-single.php">Building Construction</a></li>
-                                    <li><a href="service-single.php">House Construction</a></li>
+                                    <li><a href="service-single.php"><?php echo $fs['nombre']; ?></a></li>
+                                  <!--   <li><a href="service-single.php">House Construction</a></li>
                                     <li><a href="service-single.php">Interior Desing</a></li>
                                     <li><a href="service-single.php">Road Construction</a></li>
-                                    <li><a href="service-single.php">OutFiled Digging</a></li>
+                                    <li><a href="service-single.php">OutFiled Digging</a></li> -->
                                 </ul>
+                                <?php
+                                      }
+                                 }
+                                  ?>
                             </div>
                         </div>
                         
